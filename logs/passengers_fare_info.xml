@@ -1,0 +1,34 @@
+<air:FareInfo Key="iIUsfbVqWDKAvqKHIAAAAA==" FareBasis="VOINYV" PassengerTypeCode="ADT" Origin="DAC" Destination="DXB" EffectiveDate="2023-03-17T23:45:00.000+06:00" DepartureDate="2023-03-23" Amount="BDT26763" NegotiatedFare="false" NotValidBefore="2023-03-23" NotValidAfter="2023-03-23">
+    <air:FareTicketDesignator Value="YV"/>
+    <air:FareSurcharge Key="iIUsfbVqWDKA9qKHIAAAAA==" Type="Other" Amount="NUC38.00"/>
+    <air:BaggageAllowance>
+        <air:MaxWeight Value="30" Unit="Kilograms"/>
+    </air:BaggageAllowance>
+    <air:FareRuleKey FareInfoRef="iIUsfbVqWDKAvqKHIAAAAA==" ProviderCode="1G">gws-eJxNTkEKwzAMe0zRXXZWQm/pkpWVgXdZy3LZ/58xJ2Ewg20ZybJTSkoNDBLTf0z4TMcDdmTAoJ7lfYWqXCLEpwpSBedzt3piWGhwwjo5unRZXsrsDZtsHFQL1F7LmpvTvLgvSUE7jAZ9Az9wuzu0tbx2EzKE2JSDYoT/+QVEiCsj</air:FareRuleKey>
+    <air:Brand Key="iIUsfbVqWDKA/4KHIAAAAA==" BrandID="1031598" UpSellBrandID="1031597" BrandTier="0001">
+        <air:UpsellBrand FareBasis="VOINYS" FareInfoRef="iIUsfbVqWDKAV0KHIAAAAA=="/>
+    </air:Brand>
+</air:FareInfo>
+
+<air:FareInfo Key="iIUsfbVqWDKA+qKHIAAAAA==" FareBasis="VOINYV" PassengerTypeCode="CNN" Origin="DAC" Destination="DXB" EffectiveDate="2023-03-17T23:45:00.000+06:00" DepartureDate="2023-03-23" Amount="BDT21080" NegotiatedFare="false" NotValidBefore="2023-03-23" NotValidAfter="2023-03-23">
+    <air:FareTicketDesignator Value="CH"/>
+    <air:FareSurcharge Key="iIUsfbVqWDKALrKHIAAAAA==" Type="Other" Amount="NUC38.00"/>
+    <air:BaggageAllowance>
+        <air:MaxWeight Value="30" Unit="Kilograms"/>
+    </air:BaggageAllowance>
+    <air:FareRuleKey FareInfoRef="iIUsfbVqWDKA+qKHIAAAAA==" ProviderCode="1G">gws-eJxNTkEOwjAMe8zku5PCKm6FdhMTUjhtohf+/wzSFiQiJXbkxElKSamBQWL6jwnvaX/A9gwY1LO8bpB5FkK8qyBVcDw3qweGhQYXrIsDtY/lSzk7YJWVQ2qB2mu55ubEk/vSCdphNOob+JHl7tSy2WZChhBJ+UqM8D8/P9MrFQ==</air:FareRuleKey>
+    <air:Brand Key="iIUsfbVqWDKAB5KHIAAAAA==" BrandID="1031598" UpSellBrandID="1031597" BrandTier="0001">
+        <air:UpsellBrand FareBasis="VOINYS" FareInfoRef="iIUsfbVqWDKAi0KHIAAAAA=="/>
+    </air:Brand>
+</air:FareInfo>
+
+<air:FareInfo Key="iIUsfbVqWDKAMrKHIAAAAA==" FareBasis="VOINYV" PassengerTypeCode="INF" Origin="DAC" Destination="DXB" EffectiveDate="2023-03-17T23:45:00.000+06:00" DepartureDate="2023-03-23" Amount="BDT2274" NegotiatedFare="false" NotValidBefore="2023-03-23" NotValidAfter="2023-03-23">
+    <air:FareTicketDesignator Value="IN"/>
+    <air:BaggageAllowance>
+        <air:MaxWeight Value="10" Unit="Kilograms"/>
+    </air:BaggageAllowance>
+    <air:FareRuleKey FareInfoRef="iIUsfbVqWDKAMrKHIAAAAA==" ProviderCode="1G">gws-eJxNjk0KAyEMhQ8zvH1+WmR2tjpSKWRWM9RN73+MRm2hgeS98MWYGKOQKCmH+B8L3svxhB0JMIhnft0hwhewNw1Ewjj3au3E3CDqwAacqmMsrfnqgsKFJuqBNmq+JWc09roq+r/o1l/gZ7aHW6tWqrEPaSDiL6IAP/MDFoEq4g==</air:FareRuleKey>
+    <air:Brand Key="iIUsfbVqWDKAD5KHIAAAAA==" BrandID="1031598" UpSellBrandID="1031597" BrandTier="0001">
+        <air:UpsellBrand FareBasis="VOINYS" FareInfoRef="iIUsfbVqWDKAv0KHIAAAAA=="/>
+    </air:Brand>
+</air:FareInfo>
