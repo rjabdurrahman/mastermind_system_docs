@@ -1,0 +1,681 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header xmlns:univ="http://www.travelport.com/schema/universal_v47_0">
+    <univ:SupportedVersions airVersion="air_v47_0"/>
+  </soap:Header>
+  <soap:Body>
+    <univ:AirCreateReservationReq AuthorizedBy="user" TraceId="mastermind" RetainReservation="None" TargetBranch="P7186508" RuleName="SIP" RestrictWaitlist="false" xmlns:univ="http://www.travelport.com/schema/universal_v47_0" xmlns:com="http://www.travelport.com/schema/common_v47_0" xmlns:air="http://www.travelport.com/schema/air_v47_0" xmlns:common_v47_0="http://www.travelport.com/schema/common_v47_0">
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <com:BookingTraveler Key="P_1" Age="22" DOB="2000-11-23" Gender="M" TravelerType="ADT">
+        <com:BookingTravelerName First="Arif" Last="Khan" Prefix="Mr"/>
+        <com:DeliveryInfo>
+          <com:ShippingAddress>
+            <com:AddressName/>
+            <com:Street>Basabo</com:Street>
+            <com:City>Dhaka</com:City>
+            <com:PostalCode>1212</com:PostalCode>
+            <com:Country>BD</com:Country>
+          </com:ShippingAddress>
+        </com:DeliveryInfo>
+        <com:PhoneNumber CountryCode="880" Location="DAC" Number="01749903970" Type="Other"/>
+        <com:Email EmailID="arifkhanshanto123@gmail.com" Type="Home"/>
+        <com:SSR Type="FOID" FreeText="PPBDEA145236"/>
+        <com:SSR Type="DOCS" FreeText="P/BD/EA145236/BD/23Nov00/M/23Nov23/Khan/Arif"/>
+      </com:BookingTraveler>
+      <com:BookingTraveler Key="P_2" Age="10" DOB="2012-11-23" Gender="M" TravelerType="CNN">
+        <com:BookingTravelerName First="Onuj" Last="Khan" Prefix="Master"/>
+        <com:SSR Type="FOID" FreeText="PPBDEA147833"/>
+        <com:SSR Type="DOCS" FreeText="P/BD/EA147833/BD/23Nov12/M/23Nov23/Khan/Onuj"/>
+        <com:NameRemark Key="P_2">
+          <com:RemarkData>P-C10 DOB23NOV12</com:RemarkData>
+        </com:NameRemark>
+      </com:BookingTraveler>
+      <air:AirPricingSolution Key="WFSsfbUqWDKAcLfqVAAAAA==" TotalPrice="BDT70124" BasePrice="USD518.00" ApproximateTotalPrice="BDT70124" ApproximateBasePrice="BDT53526" EquivalentBasePrice="BDT53526" Taxes="BDT16598" Fees="BDT0" ApproximateTaxes="BDT16598" QuoteDate="2023-03-25">
+        <air:AirSegment Key="WFSsfbUqWDKAYLfqVAAAAA==" Group="0" Carrier="UK" FlightNumber="184" ProviderCode="1G" Origin="DAC" Destination="BOM" DepartureTime="2023-04-25T12:00:00.000+06:00" ArrivalTime="2023-04-25T14:45:00.000+05:30" FlightTime="195" TravelTime="195" Distance="1171" ClassOfService="V" Equipment="320" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="UK">VISTARA</air:CodeshareInfo>
+          <air:FlightDetails Key="WFSsfbUqWDKAZLfqVAAAAA==" Origin="DAC" Destination="BOM" DepartureTime="2023-04-25T12:00:00.000+06:00" ArrivalTime="2023-04-25T14:45:00.000+05:30" FlightTime="195" TravelTime="195" Equipment="320" OriginTerminal="1" DestinationTerminal="2" AutomatedCheckin="false">
+            <air:Meals>Meal</air:Meals>
+            <air:InFlightServices>Non-smoking</air:InFlightServices>
+          </air:FlightDetails>
+        </air:AirSegment>
+        <air:AirSegment Key="WFSsfbUqWDKAaLfqVAAAAA==" Group="0" Carrier="UK" FlightNumber="201" ProviderCode="1G" Origin="BOM" Destination="DXB" DepartureTime="2023-04-25T16:25:00.000+05:30" ArrivalTime="2023-04-25T18:15:00.000+04:00" FlightTime="200" TravelTime="200" Distance="1201" ClassOfService="V" Equipment="321" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="UK">VISTARA</air:CodeshareInfo>
+          <air:FlightDetails Key="WFSsfbUqWDKAbLfqVAAAAA==" Origin="BOM" Destination="DXB" DepartureTime="2023-04-25T16:25:00.000+05:30" ArrivalTime="2023-04-25T18:15:00.000+04:00" FlightTime="200" TravelTime="200" Equipment="321" OriginTerminal="2" DestinationTerminal="1" AutomatedCheckin="false">
+            <air:Meals>Meal</air:Meals>
+            <air:InFlightServices>Non-smoking</air:InFlightServices>
+          </air:FlightDetails>
+        </air:AirSegment>
+        <air:AirPricingInfo Key="WFSsfbUqWDKAfLfqVAAAAA==" TotalPrice="BDT35062" BasePrice="USD259.00" ApproximateTotalPrice="BDT35062" ApproximateBasePrice="BDT26763" EquivalentBasePrice="BDT26763" ApproximateTaxes="BDT8299" Taxes="BDT8299" LatestTicketingTime="2023-04-25T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+          <air:FareInfo Key="WFSsfbUqWDKAoLfqVAAAAA==" FareBasis="VOINYV" PassengerTypeCode="ADT" Origin="DAC" Destination="DXB" EffectiveDate="2023-03-25T15:35:00.000+06:00" DepartureDate="2023-04-25" Amount="BDT26763" NegotiatedFare="false" NotValidBefore="2023-04-25" NotValidAfter="2023-04-25" TaxAmount="BDT8299.00">
+            <air:FareTicketDesignator Value="YV"/>
+            <common_v47_0:Endorsement Value="NON ENDORSABLE"/>
+            <common_v47_0:Endorsement Value="RE-ROUTABLE"/>
+            <common_v47_0:Endorsement Value="REBOOKING SBJCT TO PENALTY"/>
+            <air:FareRuleKey FareInfoRef="WFSsfbUqWDKAoLfqVAAAAA==" ProviderCode="1G">6UUVoSldxwizfRpfbIe+f8bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxSSc2iZATDNxWa1uaqI55k3aSkvhp2yba5c4X5DF78mBIAMF/Za8nLAyGqh8JIaqI3pqlQMChHr2+alQb7iUuVoYX0HLTBLWYX+hNfHEXoxUV3b2b+cmv9gFHVWNccKgVF3c9pD+z3Cs85PTXW5CIthdVO31nopIIMN1QPqv5KjwDJZXjGKbuIW3Ccerr5mFKkb52tn5UA8y5YV9dV3U4CXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzzD4Wdjal2fHna1H5QsLdGaNi6zOfbTtY770mJHGJ8M5t3ArRIsOp+GmAM4q08CeKjTjdTfRhGNYGtwTXC7BL0=</air:FareRuleKey>
+            <air:Brand Key="WFSsfbUqWDKAoLfqVAAAAA==" BrandID="1031598" UpSellBrandID="1031597" Name="ECO VALUE" Carrier="UK" BrandTier="0001">
+              <air:Title Type="External" LanguageCode="EN">Eco Value</air:Title>
+              <air:Title Type="Short" LanguageCode="EN">ECOYV</air:Title>
+              <air:Text Type="ATPCO" LanguageCode="EN">//0B5/F/PRE RESERVED SEAT ASSIGNMENT//0BX/F/LOUNGEACCESS//0B3/F/MEAL SERVICES//0LF/F/PRIORITYBAGGAGE//0G6/F/PRIORITY BOARDING//0BW/F/PRIORITYCHECK IN//068/Z/CHANGE ANYTIME//06K/Z/REFUND BEFORE DEPARTURE//06L/Z/REFUNDAFTERDEPARTURE//058/Z/UPGRADE ELIGIBILITY//0M3/F/HANDBAGGAGE 7KG//0ML/F/EXCESS HAND BAGGAGE5KG</air:Text>
+              <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Value
+•	Complimentary beverages on board
+•	Complimentary meal on board
+•	30kg checked-in baggage allowance
+•	7kg hand baggage allowance
+•	Free seat selection, except emergency exit seats
+•	Changes permitted at a charge
+•	Cancellation subject to a charge
+• Please note that if the flight is operated by another airline then the on-board product or service maybe different to that described above.</air:Text>
+              <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Value
+•	Complimentary beverages on board
+•	Complimentary meal on board
+•	30kg checked-in baggage allowance
+•	7kg hand baggage allowance
+•	Free seat selection, except emergency exit seats
+•	Changes permitted at a charge
+•	Cancellation subject to a charge
+• Please note that if the flight is operated by another airline then the on-board product or service maybe different to that described above.</air:Text>
+              <air:Text Type="Strapline" LanguageCode="EN">Eco Value</air:Text>
+              <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/vistara/UK_general_medium_4653.jpg</air:ImageLocation>
+              <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/vistara/UK_general_medium_4653.jpg</air:ImageLocation>
+              <air:OptionalServices>
+                <air:OptionalService Type="Baggage" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0M3" Key="WFSsfbUqWDKAsLfqVAAAAA==" SecondaryType="CY" Chargeable="Included in the brand" OptionalServicesRuleRef="WFSsfbUqWDKAtLfqVAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Hand baggage 7kg</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Chargeable Baggage"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Max 7kg</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Max 7kg</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Hand baggage 7kg</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">HandBag</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Baggage" CreateDate="2023-03-25T09:35:40.003+00:00" Key="WFSsfbUqWDKAuLfqVAAAAA==" Chargeable="Not offered" Tag="Checked Baggage" DisplayOrder="1">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Checked Baggage</common_v47_0:Description>
+                  </common_v47_0:ServiceInfo>
+                </air:OptionalService>
+                <air:OptionalService Type="Baggage" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0MJ" Key="WFSsfbUqWDKAvLfqVAAAAA==" SecondaryType="CY" Chargeable="Not offered" OptionalServicesRuleRef="WFSsfbUqWDKAwLfqVAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Hand baggage 10kg</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Chargeable Baggage"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Max 10kg</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Max 10kg</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Hand baggage 10kg</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">HandBag</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Baggage" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0MR" Key="WFSsfbUqWDKAxLfqVAAAAA==" SecondaryType="CY" Chargeable="Not offered" OptionalServicesRuleRef="WFSsfbUqWDKAyLfqVAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Hand baggage 12kg</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_52442.jpg"/>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_52442.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Chargeable Baggage"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Max 12kg</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Max 12kg</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Hand baggage 12kg</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">HandBag</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Branded Fares" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="058" Key="WFSsfbUqWDKAzLfqVAAAAA==" SecondaryType="UE" Chargeable="Available for a charge" Tag="Upgrade" DisplayOrder="9">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Upgrade eligibility</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_123377.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_123377.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:Text Type="Strapline" LanguageCode="EN">Use your miles to upgrade</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Upgrade eligibility</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Upgrades</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Branded Fares" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="068" Key="WFSsfbUqWDKA0LfqVAAAAA==" SecondaryType="VC" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Change anytime</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4607.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4607.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:Text Type="Strapline" LanguageCode="EN">Making changes to your reservation</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Change anytime</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Changes</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Branded Fares" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="06L" Key="WFSsfbUqWDKA1LfqVAAAAA==" SecondaryType="VR" Chargeable="Available for a charge" Tag="Refund" DisplayOrder="4">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Refund after departure</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4608.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4608.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:Text Type="Strapline" LanguageCode="EN">Cancelling your reservation after departure</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Refund after departure</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Refunds</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Branded Fares" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="06K" Key="WFSsfbUqWDKA2LfqVAAAAA==" SecondaryType="VR" Chargeable="Available for a charge" Tag="Refund" DisplayOrder="4">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Refund before departure</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4608.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4608.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:Text Type="Strapline" LanguageCode="EN">Cancelling your reservation before departure</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Refund before departure</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Refundsbef</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0B5" Key="WFSsfbUqWDKA3LfqVAAAAA==" Chargeable="Included in the brand" Tag="Seat Assignment" DisplayOrder="5">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Vistara Select Seating</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">Your preferred choice of seat</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">A window seat for the perfect view or an aisle seat for added comfort, choose your preferred seat with Vistara Select!</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">A window seat for the perfect view or an aisle seat for added comfort, choose your preferred seat with Vistara Select!</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Vistara Select Seating</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Seating</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="MealOrBeverage" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0B3" Key="WFSsfbUqWDKA4LfqVAAAAA==" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Meal services</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_114534.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_114534.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">On board catering</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">MEAL SERVICES</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">MEAL SERVICES</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Meal services</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Meals</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Lounge" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0BX" Key="WFSsfbUqWDKA5LfqVAAAAA==" Chargeable="Not offered" Tag="Other" DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Lounge access</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_42794.jpg"/>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_42794.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">Somewhere quiet to work or relax</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Lounge access</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Lounges</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="TravelServices" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0G6" Key="WFSsfbUqWDKA6LfqVAAAAA==" SecondaryType="PR" Chargeable="Available for a charge" Tag="Priority Boarding" DisplayOrder="17">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Priority boarding</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_42789.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_42789.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">Board the aircraft with priority</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Priority boarding</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">PrioBoard</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="TravelServices" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0BW" Key="WFSsfbUqWDKA7LfqVAAAAA==" SecondaryType="PR" Chargeable="Available for a charge" Tag="Priority Boarding" DisplayOrder="17">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Priority check in</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_42789.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_42789.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">Check in at a seperate exclusive zone</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Priority check in</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">PrioCheck</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="TravelServices" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0LF" Key="WFSsfbUqWDKA8LfqVAAAAA==" SecondaryType="PY" Chargeable="Available for a charge" Tag="Priority Baggage" DisplayOrder="15">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Priority baggage handling</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_114535.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_114535.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">Your bags delivered with priority</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Priority baggage handling</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">PrioBags</air:Title>
+                </air:OptionalService>
+                <air:OptionalServiceRules Key="WFSsfbUqWDKAtLfqVAAAAA==">
+                  <common_v47_0:Remarks>Y,1,KG,7,CY - W20,H40,L55,CM</common_v47_0:Remarks>
+                </air:OptionalServiceRules>
+                <air:OptionalServiceRules Key="WFSsfbUqWDKAwLfqVAAAAA==">
+                  <common_v47_0:Remarks>P,1,KG,10,CY - W20,H40,L55,CM</common_v47_0:Remarks>
+                </air:OptionalServiceRules>
+                <air:OptionalServiceRules Key="WFSsfbUqWDKAyLfqVAAAAA==">
+                  <common_v47_0:Remarks>J,X,KG,12,CY - W20,H40,L55,CM</common_v47_0:Remarks>
+                </air:OptionalServiceRules>
+              </air:OptionalServices>
+            </air:Brand>
+          </air:FareInfo>
+          <air:BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="WFSsfbUqWDKAoLfqVAAAAA==" SegmentRef="WFSsfbUqWDKAYLfqVAAAAA==" HostTokenRef="WFSsfbUqWDKAdLfqVAAAAA=="/>
+          <air:BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="WFSsfbUqWDKAoLfqVAAAAA==" SegmentRef="WFSsfbUqWDKAaLfqVAAAAA==" HostTokenRef="WFSsfbUqWDKAdLfqVAAAAA=="/>
+          <air:TaxInfo Category="BD" Amount="BDT500" Key="WFSsfbUqWDKAgLfqVAAAAA=="/>
+          <air:TaxInfo Category="OW" Amount="BDT2000" Key="WFSsfbUqWDKAhLfqVAAAAA=="/>
+          <air:TaxInfo Category="P7" Amount="BDT1034" Key="WFSsfbUqWDKAiLfqVAAAAA=="/>
+          <air:TaxInfo Category="P8" Amount="BDT1034" Key="WFSsfbUqWDKAjLfqVAAAAA=="/>
+          <air:TaxInfo Category="UT" Amount="BDT3000" Key="WFSsfbUqWDKAkLfqVAAAAA=="/>
+          <air:TaxInfo Category="ZR" Amount="BDT141" Key="WFSsfbUqWDKAlLfqVAAAAA=="/>
+          <air:TaxInfo Category="E5" Amount="BDT386" Key="WFSsfbUqWDKAmLfqVAAAAA=="/>
+          <air:TaxInfo Category="YR" Amount="BDT204" Key="WFSsfbUqWDKAnLfqVAAAAA=="/>
+          <air:FareCalc>DAC UK X/BOM UK DXB Q38.00 221.47VOINYV/YV NUC259.47END ROE1.0</air:FareCalc>
+          <air:PassengerType Code="ADT" BookingTravelerRef="P_1"/>
+          <air:ChangePenalty PenaltyApplies="Anytime">
+            <air:Amount>BDT3815.0</air:Amount>
+          </air:ChangePenalty>
+          <air:CancelPenalty PenaltyApplies="Anytime">
+            <air:Amount>BDT6359.0</air:Amount>
+          </air:CancelPenalty>
+          <air:BaggageAllowances>
+            <air:BaggageAllowanceInfo TravelerType="ADT" Origin="DAC" Destination="DXB" Carrier="UK">
+              <air:URLInfo>
+                <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UK</air:URL>
+              </air:URLInfo>
+              <air:TextInfo>
+                <air:Text>30K</air:Text>
+                <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+              </air:TextInfo>
+              <air:BagDetails ApplicableBags="1stChecked">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:BagDetails>
+              <air:BagDetails ApplicableBags="2ndChecked">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:BagDetails>
+            </air:BaggageAllowanceInfo>
+            <air:CarryOnAllowanceInfo Origin="DAC" Destination="BOM" Carrier="UK">
+              <air:TextInfo>
+                <air:Text>7K</air:Text>
+              </air:TextInfo>
+              <air:CarryOnDetails ApplicableCarryOnBags="1">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:CarryOnDetails>
+              <air:CarryOnDetails ApplicableCarryOnBags="2">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:CarryOnDetails>
+            </air:CarryOnAllowanceInfo>
+            <air:CarryOnAllowanceInfo Origin="BOM" Destination="DXB" Carrier="UK">
+              <air:TextInfo>
+                <air:Text>7K</air:Text>
+              </air:TextInfo>
+              <air:CarryOnDetails ApplicableCarryOnBags="1">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:CarryOnDetails>
+              <air:CarryOnDetails ApplicableCarryOnBags="2">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:CarryOnDetails>
+            </air:CarryOnAllowanceInfo>
+          </air:BaggageAllowances>
+        </air:AirPricingInfo>
+        <air:AirPricingInfo Key="WFSsfbUqWDKA/LfqVAAAAA==" TotalPrice="BDT35062" BasePrice="USD259.00" ApproximateTotalPrice="BDT35062" ApproximateBasePrice="BDT26763" EquivalentBasePrice="BDT26763" ApproximateTaxes="BDT8299" Taxes="BDT8299" LatestTicketingTime="2023-04-25T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+          <air:FareInfo Key="WFSsfbUqWDKAIMfqVAAAAA==" FareBasis="VOINYV" PassengerTypeCode="ADT" Origin="DAC" Destination="DXB" EffectiveDate="2023-03-25T15:35:00.000+06:00" DepartureDate="2023-04-25" Amount="BDT26763" NegotiatedFare="false" NotValidBefore="2023-04-25" NotValidAfter="2023-04-25" TaxAmount="BDT8299.00">
+            <air:FareTicketDesignator Value="YV"/>
+            <common_v47_0:Endorsement Value="NON ENDORSABLE"/>
+            <common_v47_0:Endorsement Value="RE-ROUTABLE"/>
+            <common_v47_0:Endorsement Value="REBOOKING SBJCT TO PENALTY"/>
+            <air:FareRuleKey FareInfoRef="WFSsfbUqWDKAIMfqVAAAAA==" ProviderCode="1G">6UUVoSldxwizfRpfbIe+f8bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxSSc2iZATDNxWa1uaqI55k3aSkvhp2yba5c4X5DF78mBIAMF/Za8nLAyGqh8JIaqI3pqlQMChHr2+alQb7iUuVoYX0HLTBLWYX+hNfHEXoxUV3b2b+cmv9Q2mtH+H2Nz1F3c9pD+z3Cs85PTXW5CIthdVO31nopIIMN1QPqv5KjwDJZXjGKbuIW3Ccerr5mFBgms9KqSKDcy5YV9dV3U4CXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzzD4Wdjal2fHna1H5QsLdGaNi6zOfbTtY770mJHGJ8M5t3ArRIsOp+GmAM4q08CeKjTjdTfRhGNYGtwTXC7BL0=</air:FareRuleKey>
+            <air:Brand Key="WFSsfbUqWDKAIMfqVAAAAA==" BrandID="1031598" UpSellBrandID="1031597" Name="ECO VALUE" Carrier="UK" BrandTier="0001">
+              <air:Title Type="External" LanguageCode="EN">Eco Value</air:Title>
+              <air:Title Type="Short" LanguageCode="EN">ECOYV</air:Title>
+              <air:Text Type="ATPCO" LanguageCode="EN">//0B5/F/PRE RESERVED SEAT ASSIGNMENT//0BX/F/LOUNGEACCESS//0B3/F/MEAL SERVICES//0LF/F/PRIORITYBAGGAGE//0G6/F/PRIORITY BOARDING//0BW/F/PRIORITYCHECK IN//068/Z/CHANGE ANYTIME//06K/Z/REFUND BEFORE DEPARTURE//06L/Z/REFUNDAFTERDEPARTURE//058/Z/UPGRADE ELIGIBILITY//0M3/F/HANDBAGGAGE 7KG//0ML/F/EXCESS HAND BAGGAGE5KG</air:Text>
+              <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Value
+•	Complimentary beverages on board
+•	Complimentary meal on board
+•	30kg checked-in baggage allowance
+•	7kg hand baggage allowance
+•	Free seat selection, except emergency exit seats
+•	Changes permitted at a charge
+•	Cancellation subject to a charge
+• Please note that if the flight is operated by another airline then the on-board product or service maybe different to that described above.</air:Text>
+              <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Value
+•	Complimentary beverages on board
+•	Complimentary meal on board
+•	30kg checked-in baggage allowance
+•	7kg hand baggage allowance
+•	Free seat selection, except emergency exit seats
+•	Changes permitted at a charge
+•	Cancellation subject to a charge
+• Please note that if the flight is operated by another airline then the on-board product or service maybe different to that described above.</air:Text>
+              <air:Text Type="Strapline" LanguageCode="EN">Eco Value</air:Text>
+              <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/vistara/UK_general_medium_4653.jpg</air:ImageLocation>
+              <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/vistara/UK_general_medium_4653.jpg</air:ImageLocation>
+              <air:OptionalServices>
+                <air:OptionalService Type="Baggage" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0M3" Key="WFSsfbUqWDKAMMfqVAAAAA==" SecondaryType="CY" Chargeable="Included in the brand" OptionalServicesRuleRef="WFSsfbUqWDKANMfqVAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Hand baggage 7kg</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Chargeable Baggage"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Max 7kg</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Max 7kg</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Hand baggage 7kg</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">HandBag</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Baggage" CreateDate="2023-03-25T09:35:40.003+00:00" Key="WFSsfbUqWDKAOMfqVAAAAA==" Chargeable="Not offered" Tag="Checked Baggage" DisplayOrder="1">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Checked Baggage</common_v47_0:Description>
+                  </common_v47_0:ServiceInfo>
+                </air:OptionalService>
+                <air:OptionalService Type="Baggage" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0MJ" Key="WFSsfbUqWDKAPMfqVAAAAA==" SecondaryType="CY" Chargeable="Not offered" OptionalServicesRuleRef="WFSsfbUqWDKAQMfqVAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Hand baggage 10kg</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Chargeable Baggage"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Max 10kg</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Max 10kg</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Hand baggage 10kg</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">HandBag</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Baggage" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0MR" Key="WFSsfbUqWDKARMfqVAAAAA==" SecondaryType="CY" Chargeable="Not offered" OptionalServicesRuleRef="WFSsfbUqWDKASMfqVAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Hand baggage 12kg</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_52442.jpg"/>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_52442.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Chargeable Baggage"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Max 12kg</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Max 12kg</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Hand baggage 12kg</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">HandBag</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Branded Fares" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="058" Key="WFSsfbUqWDKATMfqVAAAAA==" SecondaryType="UE" Chargeable="Available for a charge" Tag="Upgrade" DisplayOrder="9">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Upgrade eligibility</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_123377.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_123377.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:Text Type="Strapline" LanguageCode="EN">Use your miles to upgrade</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Upgrade eligibility</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Upgrades</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Branded Fares" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="068" Key="WFSsfbUqWDKAUMfqVAAAAA==" SecondaryType="VC" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Change anytime</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4607.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4607.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:Text Type="Strapline" LanguageCode="EN">Making changes to your reservation</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Change anytime</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Changes</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Branded Fares" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="06L" Key="WFSsfbUqWDKAVMfqVAAAAA==" SecondaryType="VR" Chargeable="Available for a charge" Tag="Refund" DisplayOrder="4">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Refund after departure</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4608.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4608.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:Text Type="Strapline" LanguageCode="EN">Cancelling your reservation after departure</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Refund after departure</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Refunds</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Branded Fares" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="06K" Key="WFSsfbUqWDKAWMfqVAAAAA==" SecondaryType="VR" Chargeable="Available for a charge" Tag="Refund" DisplayOrder="4">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Refund before departure</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4608.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4608.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:Text Type="Strapline" LanguageCode="EN">Cancelling your reservation before departure</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Refund before departure</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Refundsbef</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0B5" Key="WFSsfbUqWDKAXMfqVAAAAA==" Chargeable="Included in the brand" Tag="Seat Assignment" DisplayOrder="5">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Vistara Select Seating</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">Your preferred choice of seat</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">A window seat for the perfect view or an aisle seat for added comfort, choose your preferred seat with Vistara Select!</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">A window seat for the perfect view or an aisle seat for added comfort, choose your preferred seat with Vistara Select!</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Vistara Select Seating</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Seating</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="MealOrBeverage" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0B3" Key="WFSsfbUqWDKAYMfqVAAAAA==" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Meal services</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_114534.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_114534.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">On board catering</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">MEAL SERVICES</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">MEAL SERVICES</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Meal services</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Meals</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Lounge" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0BX" Key="WFSsfbUqWDKAZMfqVAAAAA==" Chargeable="Not offered" Tag="Other" DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Lounge access</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_42794.jpg"/>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_42794.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">Somewhere quiet to work or relax</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Lounge access</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Lounges</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="TravelServices" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0G6" Key="WFSsfbUqWDKAaMfqVAAAAA==" SecondaryType="PR" Chargeable="Available for a charge" Tag="Priority Boarding" DisplayOrder="17">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Priority boarding</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_42789.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_42789.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">Board the aircraft with priority</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Priority boarding</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">PrioBoard</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="TravelServices" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0BW" Key="WFSsfbUqWDKAbMfqVAAAAA==" SecondaryType="PR" Chargeable="Available for a charge" Tag="Priority Boarding" DisplayOrder="17">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Priority check in</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_42789.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_42789.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">Check in at a seperate exclusive zone</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Priority check in</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">PrioCheck</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="TravelServices" CreateDate="2023-03-25T09:35:40.003+00:00" ServiceSubCode="0LF" Key="WFSsfbUqWDKAcMfqVAAAAA==" SecondaryType="PY" Chargeable="Available for a charge" Tag="Priority Baggage" DisplayOrder="15">
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAYLfqVAAAAA=="/>
+                  <common_v47_0:ServiceData AirSegmentRef="WFSsfbUqWDKAaLfqVAAAAA=="/>
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Priority baggage handling</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_114535.jpg"/>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_114535.jpg"/>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight"/>
+                  <air:Text Type="Strapline" LanguageCode="EN">Your bags delivered with priority</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Priority baggage handling</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">PrioBags</air:Title>
+                </air:OptionalService>
+                <air:OptionalServiceRules Key="WFSsfbUqWDKANMfqVAAAAA==">
+                  <common_v47_0:Remarks>Y,1,KG,7,CY - W20,H40,L55,CM</common_v47_0:Remarks>
+                </air:OptionalServiceRules>
+                <air:OptionalServiceRules Key="WFSsfbUqWDKAQMfqVAAAAA==">
+                  <common_v47_0:Remarks>P,1,KG,10,CY - W20,H40,L55,CM</common_v47_0:Remarks>
+                </air:OptionalServiceRules>
+                <air:OptionalServiceRules Key="WFSsfbUqWDKASMfqVAAAAA==">
+                  <common_v47_0:Remarks>J,X,KG,12,CY - W20,H40,L55,CM</common_v47_0:Remarks>
+                </air:OptionalServiceRules>
+              </air:OptionalServices>
+            </air:Brand>
+          </air:FareInfo>
+          <air:BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="WFSsfbUqWDKAIMfqVAAAAA==" SegmentRef="WFSsfbUqWDKAYLfqVAAAAA==" HostTokenRef="WFSsfbUqWDKAeLfqVAAAAA=="/>
+          <air:BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="WFSsfbUqWDKAIMfqVAAAAA==" SegmentRef="WFSsfbUqWDKAaLfqVAAAAA==" HostTokenRef="WFSsfbUqWDKAeLfqVAAAAA=="/>
+          <air:TaxInfo Category="BD" Amount="BDT500" Key="WFSsfbUqWDKAAMfqVAAAAA=="/>
+          <air:TaxInfo Category="OW" Amount="BDT2000" Key="WFSsfbUqWDKABMfqVAAAAA=="/>
+          <air:TaxInfo Category="P7" Amount="BDT1034" Key="WFSsfbUqWDKACMfqVAAAAA=="/>
+          <air:TaxInfo Category="P8" Amount="BDT1034" Key="WFSsfbUqWDKADMfqVAAAAA=="/>
+          <air:TaxInfo Category="UT" Amount="BDT3000" Key="WFSsfbUqWDKAEMfqVAAAAA=="/>
+          <air:TaxInfo Category="ZR" Amount="BDT141" Key="WFSsfbUqWDKAFMfqVAAAAA=="/>
+          <air:TaxInfo Category="E5" Amount="BDT386" Key="WFSsfbUqWDKAGMfqVAAAAA=="/>
+          <air:TaxInfo Category="YR" Amount="BDT204" Key="WFSsfbUqWDKAHMfqVAAAAA=="/>
+          <air:FareCalc>DAC UK X/BOM UK DXB Q38.00 221.47VOINYV/YV NUC259.47END ROE1.0</air:FareCalc>
+          <air:PassengerType Code="CNN" BookingTravelerRef="P_2"/>
+          <air:ChangePenalty PenaltyApplies="Anytime">
+            <air:Amount>BDT3815.0</air:Amount>
+          </air:ChangePenalty>
+          <air:CancelPenalty PenaltyApplies="Anytime">
+            <air:Amount>BDT6359.0</air:Amount>
+          </air:CancelPenalty>
+          <air:BaggageAllowances>
+            <air:BaggageAllowanceInfo TravelerType="CNN" Origin="DAC" Destination="DXB" Carrier="UK">
+              <air:URLInfo>
+                <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UK</air:URL>
+              </air:URLInfo>
+              <air:TextInfo>
+                <air:Text>30K</air:Text>
+                <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+              </air:TextInfo>
+              <air:BagDetails ApplicableBags="1stChecked">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:BagDetails>
+              <air:BagDetails ApplicableBags="2ndChecked">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:BagDetails>
+            </air:BaggageAllowanceInfo>
+            <air:CarryOnAllowanceInfo Origin="DAC" Destination="BOM" Carrier="UK">
+              <air:TextInfo>
+                <air:Text>7K</air:Text>
+              </air:TextInfo>
+              <air:CarryOnDetails ApplicableCarryOnBags="1">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:CarryOnDetails>
+              <air:CarryOnDetails ApplicableCarryOnBags="2">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:CarryOnDetails>
+            </air:CarryOnAllowanceInfo>
+            <air:CarryOnAllowanceInfo Origin="BOM" Destination="DXB" Carrier="UK">
+              <air:TextInfo>
+                <air:Text>7K</air:Text>
+              </air:TextInfo>
+              <air:CarryOnDetails ApplicableCarryOnBags="1">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:CarryOnDetails>
+              <air:CarryOnDetails ApplicableCarryOnBags="2">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:CarryOnDetails>
+            </air:CarryOnAllowanceInfo>
+          </air:BaggageAllowances>
+        </air:AirPricingInfo>
+        <air:FareNote Key="WFSsfbUqWDKAfMfqVAAAAA==">RATE USED IN EQU TOTAL IS BSR 1USD - 103.33BDT</air:FareNote>
+        <air:FareNote Key="WFSsfbUqWDKAgMfqVAAAAA==">LAST DATE TO PURCHASE TICKET: 25APR23</air:FareNote>
+        <air:FareNote Key="WFSsfbUqWDKAhMfqVAAAAA==">FARE HAS A PLATING CARRIER RESTRICTION</air:FareNote>
+        <air:FareNote Key="WFSsfbUqWDKAiMfqVAAAAA==">E-TKT REQUIRED</air:FareNote>
+        <air:FareNote Key="WFSsfbUqWDKAjMfqVAAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+        <air:FareNote Key="WFSsfbUqWDKAkMfqVAAAAA==">RATE USED IN EQU TOTAL IS BSR 1USD - 103.33BDT</air:FareNote>
+        <air:FareNote Key="WFSsfbUqWDKAlMfqVAAAAA==">LAST DATE TO PURCHASE TICKET: 25APR23</air:FareNote>
+        <air:FareNote Key="WFSsfbUqWDKAmMfqVAAAAA==">FARE HAS A PLATING CARRIER RESTRICTION</air:FareNote>
+        <air:FareNote Key="WFSsfbUqWDKAnMfqVAAAAA==">E-TKT REQUIRED</air:FareNote>
+        <air:FareNote Key="WFSsfbUqWDKAoMfqVAAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+        <common_v47_0:HostToken Key="WFSsfbUqWDKAdLfqVAAAAA==">GFB10101ADT00  01VOINYV         YV                     0200010002#GFB200010101NADTV3033IN1000200008995001#GFMCER 033NIN10 UK ADTVOINYV</common_v47_0:HostToken>
+        <common_v47_0:HostToken Key="WFSsfbUqWDKAeLfqVAAAAA==">GFB10202CNN00  01VOINYV         YV                     0200010002#GFB200020201NADTV3033IN1000200008995001#GFMCER 033NIN10 UK ADTVOINYV</common_v47_0:HostToken>
+      </air:AirPricingSolution>
+      <com:ActionStatus Type="TAU" TicketDate="2023-03-25T16:35:46+06:00" ProviderCode="1G"/>
+    </univ:AirCreateReservationReq>
+  </soap:Body>
+</soap:Envelope>

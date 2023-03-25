@@ -1,0 +1,133 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <universal:AirCreateReservationRsp TraceId="mastermind"
+            TransactionId="181FC2E60A0D6A94381E79D2D56CE829" ResponseTime="3054"
+            xmlns:universal="http://www.travelport.com/schema/universal_v47_0"
+            xmlns:common_v47_0="http://www.travelport.com/schema/common_v47_0"
+            xmlns:air="http://www.travelport.com/schema/air_v47_0">
+            <common_v47_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1G">NO FARES</common_v47_0:ResponseMessage>
+            <common_v47_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1G">Some of the
+                requested AirPricingInfos could not be saved for the requested provider.</common_v47_0:ResponseMessage>
+            <common_v47_0:ResponseMessage Code="3824" Type="Warning" ProviderCode="1G">The fare
+                HostToken has been ignored. The BrandTier has been applied.</common_v47_0:ResponseMessage>
+            <common_v47_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1G">3100 : NO
+                PLATING CARRIER FOUND</common_v47_0:ResponseMessage>
+            <common_v47_0:ResponseMessage Code="13565" Type="Warning" ProviderCode="1G">UpsellBrandID
+                has been ignored.</common_v47_0:ResponseMessage>
+            <universal:UniversalRecord LocatorCode="1OL1JM" Version="0" Status="Active">
+                <common_v47_0:BookingTraveler Key="WFSsfbUqWDKAZbfqVAAAAA==" TravelerType="ADT"
+                    Age="22" DOB="2000-11-23" Gender="M" ElStat="A">
+                    <common_v47_0:BookingTravelerName Prefix="Mr" First="Arif" Last="Khan" />
+                    <common_v47_0:DeliveryInfo>
+                        <common_v47_0:ShippingAddress Key="WFSsfbUqWDKAwbfqVAAAAA==" ElStat="A">
+                            <common_v47_0:AddressName>ARIFMR KHAN</common_v47_0:AddressName>
+                            <common_v47_0:Street>Basabo</common_v47_0:Street>
+                            <common_v47_0:City>Dhaka</common_v47_0:City>
+                            <common_v47_0:PostalCode>1212</common_v47_0:PostalCode>
+                            <common_v47_0:Country>BD</common_v47_0:Country>
+                            <common_v47_0:ProviderReservationInfoRef Key="WFSsfbUqWDKA+bfqVAAAAA==" />
+                        </common_v47_0:ShippingAddress>
+                    </common_v47_0:DeliveryInfo>
+                    <common_v47_0:PhoneNumber Key="WFSsfbUqWDKAsbfqVAAAAA==" Type="Other"
+                        Location="DAC" CountryCode="880" Number="01749903970" ElStat="A">
+                        <common_v47_0:ProviderReservationInfoRef Key="WFSsfbUqWDKA+bfqVAAAAA==" />
+                    </common_v47_0:PhoneNumber>
+                    <common_v47_0:Email Key="WFSsfbUqWDKAvbfqVAAAAA==" Type="Home"
+                        EmailID="arifkhanshanto123@gmail.com" ElStat="A">
+                        <common_v47_0:ProviderReservationInfoRef Key="WFSsfbUqWDKA+bfqVAAAAA==" />
+                    </common_v47_0:Email>
+                    <common_v47_0:SSR Key="WFSsfbUqWDKAcbfqVAAAAA==" Status="HK" Type="DOCS"
+                        FreeText="P/BD/00005236/BD/0000000/M/23NOV23/KHAN/ARIF -1KHAN/ARIFMR"
+                        Carrier="UK" ProviderReservationInfoRef="WFSsfbUqWDKA+bfqVAAAAA=="
+                        ElStat="A" />
+                </common_v47_0:BookingTraveler>
+                <common_v47_0:BookingTraveler Key="WFSsfbUqWDKASbfqVAAAAA==" TravelerType="CNN"
+                    Age="10" DOB="2012-11-23" Gender="M" ElStat="A">
+                    <common_v47_0:BookingTravelerName Prefix="Master" First="Onuj" Last="Khan" />
+                    <common_v47_0:SSR Key="WFSsfbUqWDKAUbfqVAAAAA==" Status="HK" Type="DOCS"
+                        FreeText="P/BD/00007833/BD/0000000/M/23NOV23/KHAN/ONUJ -1KHAN/ONUJMASTER"
+                        Carrier="UK" ProviderReservationInfoRef="WFSsfbUqWDKA+bfqVAAAAA=="
+                        ElStat="A" />
+                    <common_v47_0:NameRemark Key="WFSsfbUqWDKAVbfqVAAAAA==" ElStat="A">
+                        <common_v47_0:RemarkData>P-C10 DOB23NOV12</common_v47_0:RemarkData>
+                        <common_v47_0:ProviderReservationInfoRef Key="WFSsfbUqWDKA+bfqVAAAAA==" />
+                    </common_v47_0:NameRemark>
+                </common_v47_0:BookingTraveler>
+                <common_v47_0:ActionStatus Key="WFSsfbUqWDKAzbfqVAAAAA==" Type="TAU"
+                    TicketDate="2023-03-25T23:59:00.000+06:00"
+                    ProviderReservationInfoRef="WFSsfbUqWDKA+bfqVAAAAA==" ProviderCode="1G"
+                    ElStat="A" />
+                <universal:ProviderReservationInfo Key="WFSsfbUqWDKA+bfqVAAAAA==" ProviderCode="1G"
+                    LocatorCode="3JCSBS" CreateDate="2023-03-25T09:35:50.411+00:00"
+                    ModifiedDate="2023-03-25T09:35:50.411+00:00" HostCreateDate="2023-03-25"
+                    OwningPCC="67G0" />
+                <air:AirReservation LocatorCode="1OL1JN" CreateDate="2023-03-25T09:35:49.773+00:00"
+                    ModifiedDate="2023-03-25T09:35:50.411+00:00">
+                    <common_v47_0:SupplierLocator SupplierCode="UK" SupplierLocatorCode="5BVL5A"
+                        ProviderReservationInfoRef="WFSsfbUqWDKA+bfqVAAAAA=="
+                        CreateDateTime="2023-03-25T09:35:00.000+00:00" />
+                    <common_v47_0:BookingTravelerRef Key="WFSsfbUqWDKAZbfqVAAAAA==" />
+                    <common_v47_0:BookingTravelerRef Key="WFSsfbUqWDKASbfqVAAAAA==" />
+                    <common_v47_0:ProviderReservationInfoRef Key="WFSsfbUqWDKA+bfqVAAAAA==" />
+                    <air:AirSegment Key="WFSsfbUqWDKAYLfqVAAAAA==" Group="0" Carrier="UK"
+                        CabinClass="Economy" FlightNumber="184" ProviderCode="1G" Origin="DAC"
+                        Destination="BOM" DepartureTime="2023-04-25T12:00:00.000+06:00"
+                        ArrivalTime="2023-04-25T14:45:00.000+05:30" TravelTime="195"
+                        ClassOfService="V" ETicketability="No" Equipment="320" MarriageGroup="1"
+                        Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No"
+                        ProviderReservationInfoRef="WFSsfbUqWDKA+bfqVAAAAA==" TravelOrder="1"
+                        ProviderSegmentOrder="1" OptionalServicesIndicator="false"
+                        AvailabilitySource="S" ParticipantLevel="Secure Sell"
+                        LinkAvailability="true" ElStat="A">
+                        <air:FlightDetails Key="WFSsfbUqWDKA3bfqVAAAAA==" Origin="DAC"
+                            Destination="BOM" DepartureTime="2023-04-25T12:00:00.000+06:00"
+                            ArrivalTime="2023-04-25T14:45:00.000+05:30" FlightTime="195"
+                            TravelTime="195" Equipment="320" OriginTerminal="1"
+                            DestinationTerminal="2" AutomatedCheckin="false" ElStat="C" />
+                        <air:Connection Duration="100" />
+                        <common_v47_0:SellMessage>DEPARTS DAC TERMINAL 1 - ARRIVES BOM TERMINAL 2</common_v47_0:SellMessage>
+                        <common_v47_0:SellMessage>*SUBJECT TO REGULATORY APPROVAL*</common_v47_0:SellMessage>
+                    </air:AirSegment>
+                    <air:AirSegment Key="WFSsfbUqWDKAaLfqVAAAAA==" Group="0" Carrier="UK"
+                        CabinClass="Economy" FlightNumber="201" ProviderCode="1G" Origin="BOM"
+                        Destination="DXB" DepartureTime="2023-04-25T16:25:00.000+05:30"
+                        ArrivalTime="2023-04-25T18:15:00.000+04:00" TravelTime="200"
+                        ClassOfService="V" ETicketability="No" Equipment="321" MarriageGroup="1"
+                        Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No"
+                        ProviderReservationInfoRef="WFSsfbUqWDKA+bfqVAAAAA==" TravelOrder="2"
+                        ProviderSegmentOrder="2" OptionalServicesIndicator="false"
+                        AvailabilitySource="S" ParticipantLevel="Secure Sell"
+                        LinkAvailability="true" ElStat="A">
+                        <air:FlightDetails Key="WFSsfbUqWDKA4bfqVAAAAA==" Origin="BOM"
+                            Destination="DXB" DepartureTime="2023-04-25T16:25:00.000+05:30"
+                            ArrivalTime="2023-04-25T18:15:00.000+04:00" FlightTime="200"
+                            TravelTime="200" Equipment="321" OriginTerminal="2"
+                            DestinationTerminal="1" AutomatedCheckin="false" ElStat="C" />
+                        <common_v47_0:SellMessage>DEPARTS BOM TERMINAL 2 - ARRIVES DXB TERMINAL 1</common_v47_0:SellMessage>
+                        <common_v47_0:SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS
+                            DOCA/DOCO/DOCS</common_v47_0:SellMessage>
+                        <common_v47_0:SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN
+                            CONNECTION</common_v47_0:SellMessage>
+                        <common_v47_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT
+                            AUTHORITIES</common_v47_0:SellMessage>
+                        <common_v47_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v47_0:SellMessage>
+                    </air:AirSegment>
+                </air:AirReservation>
+                <common_v47_0:AgencyInfo>
+                    <common_v47_0:AgentAction ActionType="Created"
+                        AgentCode="uAPI8412215835-2a3c237a" BranchCode="P7186508"
+                        AgencyCode="S7186501" EventTime="2023-03-25T09:35:47.477+00:00" />
+                </common_v47_0:AgencyInfo>
+                <common_v47_0:SSR Key="WFSsfbUqWDKA5bfqVAAAAA==" Status="HK" Type="FOID"
+                    FreeText="/PPBDEA145236-1KHAN/ARIFMR" Carrier="UK"
+                    ProviderReservationInfoRef="WFSsfbUqWDKA+bfqVAAAAA==" ElStat="C" />
+                <common_v47_0:SSR Key="WFSsfbUqWDKA6bfqVAAAAA==" Status="HK" Type="FOID"
+                    FreeText="/PPBDEA147833-1KHAN/ONUJMASTER" Carrier="UK"
+                    ProviderReservationInfoRef="WFSsfbUqWDKA+bfqVAAAAA==" ElStat="C" />
+                <common_v47_0:SSR Key="WFSsfbUqWDKA7bfqVAAAAA==" Status="HK" Type="CHLD"
+                    FreeText="/-1KHAN/ONUJMASTER" Carrier="UK"
+                    ProviderReservationInfoRef="WFSsfbUqWDKA+bfqVAAAAA==" ElStat="C" />
+            </universal:UniversalRecord>
+        </universal:AirCreateReservationRsp>
+    </SOAP:Body>
+</SOAP:Envelope>

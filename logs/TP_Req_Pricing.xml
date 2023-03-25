@@ -1,0 +1,27 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header/>
+  <soap:Body>
+    <air:AirPriceReq AuthorizedBy="user" TraceId="mastermind" TargetBranch="P7186508" CheckFlightDetails="true" FareRuleType="Long" xmlns:air="http://www.travelport.com/schema/air_v47_0" xmlns:com="http://www.travelport.com/schema/common_v47_0">
+      <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v47_0"/>
+      <air:AirItinerary>
+        <air:AirSegment ArrivalTime="2023-04-25T14:45:00.000+05:30" DepartureTime="2023-04-25T12:00:00.000+06:00" Carrier="UK" CabinClass="Economy" Origin="DAC" Destination="BOM" ETicketability="Yes" Equipment="320" FlightNumber="184" ProviderCode="1G" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" FlightTime="195" Distance="1171" ChangeOfPlane="false" ParticipantLevel="Secure Sell" OptionalServicesIndicator="false" AvailabilityDisplayType="Fare Shop/Optimal Shop" AvailabilitySource="P" Key="3WUsfbTqWDKAMi1NVAAAAA==" Group="0"/>
+        <air:AirSegment ArrivalTime="2023-04-25T18:15:00.000+04:00" DepartureTime="2023-04-25T16:25:00.000+05:30" Carrier="UK" CabinClass="Economy" Origin="BOM" Destination="DXB" ETicketability="Yes" Equipment="321" FlightNumber="201" ProviderCode="1G" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" FlightTime="200" Distance="1201" ChangeOfPlane="false" ParticipantLevel="Secure Sell" OptionalServicesIndicator="false" AvailabilityDisplayType="Fare Shop/Optimal Shop" AvailabilitySource="P" Key="3WUsfbTqWDKAOi1NVAAAAA==" Group="0"/>
+      </air:AirItinerary>
+      <air:AirPricingModifiers FaresIndicator="PublicFaresOnly" PlatingCarrier="UK" InventoryRequestType="DirectAccess"/>
+      <com:SearchPassenger BookingTravelerRef="P_1" Code="ADT"/>
+      <com:SearchPassenger BookingTravelerRef="P_2" Code="CNN"/>
+      <air:AirPricingCommand>
+        <air:AirSegmentPricingModifiers AirSegmentRef="3WUsfbTqWDKAMi1NVAAAAA==">
+          <air:PermittedBookingCodes>
+            <air:BookingCode Code="V"/>
+          </air:PermittedBookingCodes>
+        </air:AirSegmentPricingModifiers>
+        <air:AirSegmentPricingModifiers AirSegmentRef="3WUsfbTqWDKAOi1NVAAAAA==">
+          <air:PermittedBookingCodes>
+            <air:BookingCode Code="V"/>
+          </air:PermittedBookingCodes>
+        </air:AirSegmentPricingModifiers>
+      </air:AirPricingCommand>
+    </air:AirPriceReq>
+  </soap:Body>
+</soap:Envelope>
