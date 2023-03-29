@@ -1,0 +1,1201 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header xmlns:univ="http://www.travelport.com/schema/universal_v47_0">
+    <univ:SupportedVersions airVersion="air_v47_0" />
+  </soap:Header>
+  <soap:Body>
+    <univ:AirCreateReservationReq AuthorizedBy="user" TraceId="mastermind" RetainReservation="None"
+      TargetBranch="P7186508" RuleName="SIP" RestrictWaitlist="false"
+      xmlns:univ="http://www.travelport.com/schema/universal_v47_0"
+      xmlns:com="http://www.travelport.com/schema/common_v47_0"
+      xmlns:air="http://www.travelport.com/schema/air_v47_0"
+      xmlns:common_v47_0="http://www.travelport.com/schema/common_v47_0">
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI" />
+      <com:BookingTraveler Key="P_1" Age="22" DOB="2000-11-23" Gender="M" TravelerType="ADT">
+        <com:BookingTravelerName First="Arif" Last="Khan" Prefix="Mr" />
+        <com:DeliveryInfo>
+          <com:ShippingAddress>
+            <com:AddressName />
+            <com:Street>Basabo</com:Street>
+            <com:City>Dhaka</com:City>
+            <com:PostalCode>1212</com:PostalCode>
+            <com:Country>BD</com:Country>
+          </com:ShippingAddress>
+        </com:DeliveryInfo>
+        <com:PhoneNumber CountryCode="880" Location="DAC" Number="01749903970" Type="Other" />
+        <com:Email EmailID="arifkhanshanto123@gmail.com" Type="Home" />
+        <com:SSR Type="FOID" FreeText="PPBDEA145236" />
+        <com:SSR Type="DOCS" FreeText="P/BD/EA145236/BD/23Nov00/M/23Nov23/Khan/Arif" />
+      </com:BookingTraveler>
+      <com:BookingTraveler Key="P_2" Age="10" DOB="2012-11-23" Gender="M" TravelerType="CNN">
+        <com:BookingTravelerName First="Onuj" Last="Khan" Prefix="Master" />
+        <com:SSR Type="FOID" FreeText="PPBDEA147833" />
+        <com:SSR Type="DOCS" FreeText="P/BD/EA147833/BD/23Nov12/M/23Nov23/Khan/Onuj" />
+        <com:NameRemark Key="P_2">
+          <com:RemarkData>P-C10 DOB23NOV12</com:RemarkData>
+        </com:NameRemark>
+      </com:BookingTraveler>
+      <com:OSI Carrier="UL" Text="PAX CTCM/234567890"
+        xmlns="http://www.travelport.com/schema/common_v51_0" />
+      <com:OSI Carrier="UL" Text=" PAX CTCE/abcd//gmail.com"
+        xmlns="http://www.travelport.com/schema/common_v51_0" />
+      <com:ContinuityCheckOverride Key="1T" xmlns="http://www.travelport.com/schema/common_v51_0">
+        true
+        </com:ContinuityCheckOverride>
+      <AgencyContactInfo xmlns="http://www.travelport.com/schema/common_v51_0">
+        <PhoneNumber Location="DAC" Number="01401123603" Text="MASTERMIND TOURS AND TRAVELS" />
+      </AgencyContactInfo>
+      <air:AirPricingSolution Key="iIUsfbVqWDKABObkdAAAAA==" TotalPrice="BDT135990"
+        BasePrice="USD1094.00" ApproximateTotalPrice="BDT135990" ApproximateBasePrice="BDT113044"
+        EquivalentBasePrice="BDT113044" Taxes="BDT22946" Fees="BDT0" ApproximateTaxes="BDT22946"
+        QuoteDate="2023-03-30">
+        <air:AirSegment Connection="false" Key="iIUsfbVqWDKA5NbkdAAAAA==" Group="0" Carrier="UL"
+          FlightNumber="190"
+          ProviderCode="1G" Origin="DAC" Destination="CMB"
+          DepartureTime="2023-06-27T12:55:00.000+06:00" ArrivalTime="2023-06-27T15:40:00.000+05:30"
+          FlightTime="195" TravelTime="195" Distance="1341" ClassOfService="R" Equipment="32B"
+          ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S"
+          ParticipantLevel="Secure Sell" LinkAvailability="true"
+          PolledAvailabilityOption="O and D cache or polled status used with different local status"
+          AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="UL">SRILANKAN AIRLINES</air:CodeshareInfo>
+          <air:FlightDetails Key="iIUsfbVqWDKA6NbkdAAAAA==" Origin="DAC" Destination="CMB"
+            DepartureTime="2023-06-27T12:55:00.000+06:00"
+            ArrivalTime="2023-06-27T15:40:00.000+05:30" FlightTime="195" TravelTime="195"
+            Equipment="32B" OriginTerminal="1" AutomatedCheckin="false">
+            <air:Meals>HotMeal</air:Meals>
+            <air:InFlightServices>Movie</air:InFlightServices>
+            <air:InFlightServices>Audio Programming</air:InFlightServices>
+            <air:InFlightServices>Duty Free Sales</air:InFlightServices>
+            <air:InFlightServices>Non-smoking</air:InFlightServices>
+            <air:InFlightServices>ADDITIONAL PASSENGER DATA REQUIRED</air:InFlightServices>
+          </air:FlightDetails>
+        </air:AirSegment>
+        <air:AirSegment Connection="true" Key="iIUsfbVqWDKA7NbkdAAAAA==" Group="0" Carrier="UL"
+          FlightNumber="225"
+          ProviderCode="1G" Origin="CMB" Destination="DXB"
+          DepartureTime="2023-06-27T18:25:00.000+05:30" ArrivalTime="2023-06-27T21:40:00.000+04:00"
+          FlightTime="285" TravelTime="285" Distance="2043" ClassOfService="R" Equipment="333"
+          ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S"
+          ParticipantLevel="Secure Sell" LinkAvailability="true"
+          PolledAvailabilityOption="O and D cache or polled status used with different local status"
+          AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="UL">SRILANKAN AIRLINES</air:CodeshareInfo>
+          <air:FlightDetails Key="iIUsfbVqWDKA8NbkdAAAAA==" Origin="CMB" Destination="DXB"
+            DepartureTime="2023-06-27T18:25:00.000+05:30"
+            ArrivalTime="2023-06-27T21:40:00.000+04:00" FlightTime="285" TravelTime="285"
+            Equipment="333" DestinationTerminal="1" AutomatedCheckin="false">
+            <air:Meals>HotMeal</air:Meals>
+            <air:InFlightServices>Telephone</air:InFlightServices>
+            <air:InFlightServices>Audio Programming</air:InFlightServices>
+            <air:InFlightServices>Duty Free Sales</air:InFlightServices>
+            <air:InFlightServices>Non-smoking</air:InFlightServices>
+            <air:InFlightServices>In-seat Video Player/Library</air:InFlightServices>
+            <air:InFlightServices>Wi-Fi</air:InFlightServices>
+            <air:InFlightServices>Lie-Flat seat business</air:InFlightServices>
+            <air:InFlightServices>ADDITIONAL PASSENGER DATA REQUIRED</air:InFlightServices>
+          </air:FlightDetails>
+        </air:AirSegment>
+        <air:AirSegment Connection="false" Key="iIUsfbVqWDKA9NbkdAAAAA==" Group="1" Carrier="UL"
+          FlightNumber="226"
+          ProviderCode="1G" Origin="DXB" Destination="CMB"
+          DepartureTime="2023-06-30T22:50:00.000+04:00" ArrivalTime="2023-07-01T04:45:00.000+05:30"
+          FlightTime="265" TravelTime="265" Distance="2043" ClassOfService="R" Equipment="333"
+          ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S"
+          ParticipantLevel="Secure Sell" LinkAvailability="true"
+          PolledAvailabilityOption="O and D cache or polled status used with different local status"
+          AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="UL">SRILANKAN AIRLINES</air:CodeshareInfo>
+          <air:FlightDetails Key="iIUsfbVqWDKA+NbkdAAAAA==" Origin="DXB" Destination="CMB"
+            DepartureTime="2023-06-30T22:50:00.000+04:00"
+            ArrivalTime="2023-07-01T04:45:00.000+05:30" FlightTime="265" TravelTime="265"
+            Equipment="333" OriginTerminal="1" AutomatedCheckin="false">
+            <air:Meals>HotMeal</air:Meals>
+            <air:InFlightServices>Telephone</air:InFlightServices>
+            <air:InFlightServices>Audio Programming</air:InFlightServices>
+            <air:InFlightServices>Duty Free Sales</air:InFlightServices>
+            <air:InFlightServices>Non-smoking</air:InFlightServices>
+            <air:InFlightServices>In-seat Video Player/Library</air:InFlightServices>
+            <air:InFlightServices>Wi-Fi</air:InFlightServices>
+            <air:InFlightServices>Lie-Flat seat business</air:InFlightServices>
+            <air:InFlightServices>ADDITIONAL PASSENGER DATA REQUIRED</air:InFlightServices>
+          </air:FlightDetails>
+        </air:AirSegment>
+        <air:AirSegment Connection="true" Key="iIUsfbVqWDKA/NbkdAAAAA==" Group="1" Carrier="UL"
+          FlightNumber="189"
+          ProviderCode="1G" Origin="CMB" Destination="DAC"
+          DepartureTime="2023-07-01T07:45:00.000+05:30" ArrivalTime="2023-07-01T11:30:00.000+06:00"
+          FlightTime="195" TravelTime="195" Distance="1341" ClassOfService="R" Equipment="32B"
+          ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S"
+          ParticipantLevel="Secure Sell" LinkAvailability="true"
+          PolledAvailabilityOption="O and D cache or polled status used with different local status"
+          AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="UL">SRILANKAN AIRLINES</air:CodeshareInfo>
+          <air:FlightDetails Key="iIUsfbVqWDKAAObkdAAAAA==" Origin="CMB" Destination="DAC"
+            DepartureTime="2023-07-01T07:45:00.000+05:30"
+            ArrivalTime="2023-07-01T11:30:00.000+06:00" FlightTime="195" TravelTime="195"
+            Equipment="32B" DestinationTerminal="1" AutomatedCheckin="false">
+            <air:Meals>HotMeal</air:Meals>
+            <air:InFlightServices>Movie</air:InFlightServices>
+            <air:InFlightServices>Audio Programming</air:InFlightServices>
+            <air:InFlightServices>Duty Free Sales</air:InFlightServices>
+            <air:InFlightServices>Non-smoking</air:InFlightServices>
+            <air:InFlightServices>ADDITIONAL PASSENGER DATA REQUIRED</air:InFlightServices>
+          </air:FlightDetails>
+        </air:AirSegment>
+        <air:AirPricingInfo Key="iIUsfbVqWDKAGObkdAAAAA==" TotalPrice="BDT67995"
+          BasePrice="USD547.00" ApproximateTotalPrice="BDT67995" ApproximateBasePrice="BDT56522"
+          EquivalentBasePrice="BDT56522" ApproximateTaxes="BDT11473" Taxes="BDT11473"
+          LatestTicketingTime="2023-06-27T23:59:00.000+06:00" PricingMethod="Guaranteed"
+          Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G"
+          PlatingCarrier="UL">
+          <air:FareInfo Key="iIUsfbVqWDKARObkdAAAAA==" FareBasis="RE6M1BD" PassengerTypeCode="ADT"
+            Origin="DAC" Destination="DXB" EffectiveDate="2023-03-31T00:05:00.000+06:00"
+            DepartureDate="2023-06-27" Amount="BDT28271" NegotiatedFare="false"
+            NotValidBefore="2023-06-27" NotValidAfter="2023-06-27" TaxAmount="BDT7902.00">
+            <common_v47_0:Endorsement Value="VALID ON UL ONLY" />
+            <common_v47_0:Endorsement Value="CHANGE FEE MAY APPLY" />
+            <air:FareRuleKey FareInfoRef="iIUsfbVqWDKARObkdAAAAA==" ProviderCode="1G">
+              6UUVoSldxwidqOrClwV9DMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxBgpKGYh5CixWa1uaqI55k3aSkvhp2yba5c4X5DF78mCI28Fwy0LsXAyGqh8JIaqM0EmrMjzy586fEgxBu+xUWDfQ5oIGkhaWLgFn3B9sPdSU8gecfbWEnMU535bvD9TJmRVmgyUnTz6/F+W6hGA7peWRv8cS/JBUPFc7ZmQhP+mpBH9wehGME90u/IoOHZi8WaXpVt+alR/AFKEXb03hK/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHxDGJun84l6GmjYuszn207WOnxkQ2WPPHvaVUAnec78/v9M63Ka7d3H3Q/dz5caUDawuQRjZx6wTuUhL1GhK7M0=</air:FareRuleKey>
+          </air:FareInfo>
+          <air:FareInfo Key="iIUsfbVqWDKAlObkdAAAAA==" FareBasis="RE6M1BD" PassengerTypeCode="ADT"
+            Origin="DXB" Destination="DAC" EffectiveDate="2023-03-31T00:05:00.000+06:00"
+            DepartureDate="2023-06-30" Amount="BDT28251" NegotiatedFare="false"
+            NotValidBefore="2023-06-30" NotValidAfter="2023-06-30" TaxAmount="BDT3571.00">
+            <common_v47_0:Endorsement Value="VALID ON UL ONLY" />
+            <common_v47_0:Endorsement Value="CHANGE FEE MAY APPLY" />
+            <air:FareRuleKey FareInfoRef="iIUsfbVqWDKAlObkdAAAAA==" ProviderCode="1G">
+              6UUVoSldxwidqOrClwV9DMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxBgpKGYh5CixWa1uaqI55k3aSkvhp2ybSbwz6fyDLOYTylQ/TNcQ+3AyGqh8JIaqM0EmrMjzy586fEgxBu+xUVcl3ojS2d2imLgFn3B9sPdSU8gecfbWEnMU535bvD9TJmRVmgyUnTz6/F+W6hGA7peWRv8cS/JBU4nKb2G5mOFmpBH9wehGMHEa3eMH3dEr8WaXpVt+alR/AFKEXb03hK/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHxDGJun84l6GmjYuszn207WOnxkQ2WPPHvaVUAnec78/v9M63Ka7d3H3Q/dz5caUDawuQRjZx6wTuUhL1GhK7M0=</air:FareRuleKey>
+            <air:Brand Key="iIUsfbVqWDKAlObkdAAAAA==" BrandID="933064" UpSellBrandID="933059"
+              Name="Economy Value" Carrier="UL" BrandTier="0004">
+              <air:Title Type="External" LanguageCode="EN">Economy Value</air:Title>
+              <air:Title Type="Short" LanguageCode="EN">ECO VALUE</air:Title>
+              <air:Text Type="MarketingConsumer" LanguageCode="EN">'Economy Value includes:
+
+                • Hand baggage 1 x 7kgs
+                • Checked baggage included
+                • Changes permitted
+                • Refunds permitted
+                • Onboard Meals and refreshments included
+                • Seat selection (Exit Seat and Advance Seat Reservation)
+
+                Please refer to fare rules for full conditions
+                • Please note that if the flight is operated by another airline then the onboard
+                product or service maybe different to that described above.</air:Text>
+              <air:Text Type="MarketingAgent" LanguageCode="EN">'Economy Value includes:
+
+                • Hand baggage 1 x 7kgs
+                • Checked baggage included
+                • Changes permitted
+                • Refunds permitted
+                • Onboard Meals and refreshments included
+                • Seat selection (Exit Seat and Advance Seat Reservation)
+
+                Please refer to fare rules for full conditions
+                • Please note that if the flight is operated by another airline then the onboard
+                product or service maybe different to that described above.</air:Text>
+              <air:Text Type="Strapline" LanguageCode="EN">Economy Value</air:Text>
+              <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">
+                https://cdn.travelport.com/srilankanairlines/UL_general_large_80545.JPG</air:ImageLocation>
+              <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">
+                https://cdn.travelport.com/srilankanairlines/UL_general_medium_80544.JPG</air:ImageLocation>
+              <air:OptionalServices>
+                <air:OptionalService Type="Baggage" CreateDate="2023-03-29T18:05:24.521+00:00"
+                  Key="iIUsfbVqWDKAoObkdAAAAA==" Chargeable="Included in the brand"
+                  OptionalServicesRuleRef="iIUsfbVqWDKApObkdAAAAA==" Tag="Checked Baggage"
+                  DisplayOrder="1">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Checked Baggage</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71508.jpg" />
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71508.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Check in your bags for extra
+                    convenience</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Weight Policy for Free Baggage
+                    Business Class 40kg 158cm/ 62 inch
+                    Economy Class 30kg 158cm/ 62 inch
+
+
+                    Piece Policy for Free Baggage
+                    Business Class 158cm/ 62 inch 2 32 kg each
+                    Economy Class 158cm/ 62 inch 2 23 kg each</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Weight Policy for Free
+                    Baggage
+                    Business Class 40kg 158cm/ 62 inch
+                    Economy Class 30kg 158cm/ 62 inch
+
+
+                    Piece Policy for Free Baggage
+                    Business Class 158cm/ 62 inch 2 32 kg each
+                    Economy Class 158cm/ 62 inch 2 23 kg each</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Checked Baggage</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">HoldBag</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Baggage" CreateDate="2023-03-29T18:05:24.521+00:00"
+                  Key="iIUsfbVqWDKAqObkdAAAAA==" SecondaryType="CY"
+                  Chargeable="Included in the brand"
+                  OptionalServicesRuleRef="iIUsfbVqWDKArObkdAAAAA==" Tag="Carry On Hand Baggage"
+                  DisplayOrder="2">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Hand baggage</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71509.jpg" />
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71509.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Below indicated free carry-on
+                    items are permitted in addition to above hand luggage in all cabin classes
+                    • One Laptop
+                    • One lady's hand bag, purse or pocket book, Duty Free Item
+                    • One overcoat, wrap or blanket
+                    • One umbrella or walking stick
+                    • One small camera and/or one pair of binoculars</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Below indicated free carry-on
+                    items are permitted in addition to above hand luggage in all cabin classes
+                    • One Laptop
+                    • One lady's hand bag, purse or pocket book, Duty Free Item
+                    • One overcoat, wrap or blanket
+                    • One umbrella or walking stick
+                    • One small camera and/or one pair of binoculars</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Hand baggage</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">CarryOn</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Baggage" CreateDate="2023-03-29T18:05:24.521+00:00"
+                  Key="iIUsfbVqWDKAsObkdAAAAA==" SecondaryType="XS"
+                  Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Pre-Paid Baggage</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71645.jpg" />
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71645.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Pre-Paid Baggage</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Pre-Paid additional Baggage is
+                    available in blocks of 5KG, 10KG, 15KG, 20KG, 25KG, 30KG, 35KG, 40KG, 45KG and
+                    50KG. Refer EMD Services for more details</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Pre-Paid additional Baggage
+                    is available in blocks of 5KG, 10KG, 15KG, 20KG, 25KG, 30KG, 35KG, 40KG, 45KG
+                    and 50KG. Refer EMD Services for more details</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Pre-Paid Baggage</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Pre-Paid</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Branded Fares" CreateDate="2023-03-29T18:05:24.521+00:00"
+                  ServiceSubCode="" Key="iIUsfbVqWDKAtObkdAAAAA==" SecondaryType="RF"
+                  Chargeable="Included in the brand" Tag="Other" DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Refund</common_v47_0:Description>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Title Type="Short" LanguageCode="EN" />
+                </air:OptionalService>
+                <air:OptionalService Type="Branded Fares" CreateDate="2023-03-29T18:05:24.521+00:00"
+                  ServiceSubCode="" Key="iIUsfbVqWDKAuObkdAAAAA==" SecondaryType="VC"
+                  Chargeable="Not offered" Tag="Other" DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Rebooking</common_v47_0:Description>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Title Type="Short" LanguageCode="EN" />
+                </air:OptionalService>
+                <air:OptionalService Type="RuleOverride" CreateDate="2023-03-29T18:05:24.521+00:00"
+                  Key="iIUsfbVqWDKAvObkdAAAAA==" SecondaryType="31"
+                  Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Dates Changes</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71510.jpg" />
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71510.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Date Changes</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Please refer to fare rules for
+                    full conditions</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Please refer to fare rules
+                    for full conditions</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Dates Changes</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Changes</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="PreReservedSeatAssignment"
+                  CreateDate="2023-03-29T18:05:24.521+00:00" Key="iIUsfbVqWDKAwObkdAAAAA=="
+                  SecondaryType="EA" Chargeable="Available for a charge" Tag="Other"
+                  DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Extra Legroom Seating</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71514.jpg" />
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71514.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Extra space to stretch out</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Refer EMD Services for more
+                    details or Call our contact centre 1979 or +94 777 771979 or our ticket offices.
+                    Seat with extra leg room can be purchased at the airport subject to
+                    availability.</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Refer EMD Services for more
+                    details or Call our contact centre 1979 or +94 777 771979 or our ticket offices.
+                    Seat with extra leg room can be purchased at the airport subject to
+                    availability.</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Extra Legroom Seating</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Extra Leg</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="PreReservedSeatAssignment"
+                  CreateDate="2023-03-29T18:05:24.521+00:00" Key="iIUsfbVqWDKAxObkdAAAAA=="
+                  SecondaryType="EA" Chargeable="Available for a charge" Tag="Other"
+                  DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Neighbour Free Seats</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71513.jpg" />
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71513.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Economy class passengers can
+                    reserve a Neighbour Free Seat or row on their flights for a nominal fee.
+                    Available between 48hrs and 4hrs prior to departure. *subject to availability</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy class passengers can
+                    reserve a Neighbour Free Seat or row on their flights for a nominal fee.
+                    Available between 48hrs and 4hrs prior to departure. *subject to availability</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Neighbour Free Seats</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN" />
+                </air:OptionalService>
+                <air:OptionalService Type="PreReservedSeatAssignment"
+                  CreateDate="2023-03-29T18:05:24.521+00:00" Key="iIUsfbVqWDKAyObkdAAAAA=="
+                  Chargeable="Not offered" Tag="Seat Assignment" DisplayOrder="5">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Seat Assignment</common_v47_0:Description>
+                  </common_v47_0:ServiceInfo>
+                </air:OptionalService>
+                <air:OptionalService Type="MealOrBeverage"
+                  CreateDate="2023-03-29T18:05:24.521+00:00" Key="iIUsfbVqWDKAzObkdAAAAA=="
+                  Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Meals</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71512.jpg" />
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71512.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Meals</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Onboard meals and refreshments
+                    included</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Onboard meals and
+                    refreshments included</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Meals</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Meals</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="MealOrBeverage"
+                  CreateDate="2023-03-29T18:05:24.521+00:00" Key="iIUsfbVqWDKA0ObkdAAAAA=="
+                  Chargeable="Available for a charge" Tag="Meals and Beverages" DisplayOrder="6">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Special Cake</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71512.jpg" />
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71512.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Special Cake</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Special Cake</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Special Cake</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">SPECIAL CA</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="MealOrBeverage"
+                  CreateDate="2023-03-29T18:05:24.521+00:00" Key="iIUsfbVqWDKA1ObkdAAAAA=="
+                  Chargeable="Available for a charge" Tag="Meals and Beverages" DisplayOrder="6">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Special Meal</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71512.jpg" />
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71512.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Special Meal</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Pre-order preferred meal from
+                    our extensive menu before 48 hours prior to departure on selected UL flights
+                    departing from CMB. To book a special meal refer EMD Services for more details
+                    or call our contact centre 1979 (International: +94 777 771979) or our ticket
+                    offices.</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Pre-order preferred meal from
+                    our extensive menu before 48 hours prior to departure on selected UL flights
+                    departing from CMB. To book a special meal refer EMD Services for more details
+                    or call our contact centre 1979 (International: +94 777 771979) or our ticket
+                    offices.</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Special Meal</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Special Me</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="InFlightEntertainment"
+                  CreateDate="2023-03-29T18:05:24.521+00:00" Key="iIUsfbVqWDKA2ObkdAAAAA=="
+                  SecondaryType="IT" Chargeable="Available for a charge" Tag="Other"
+                  DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Inflight WiFi</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_80762.jpg" />
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_80762.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Inflight WiFi</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">WiFi Included at a fee
+
+                    Available Airbus A330-300 and A320/A321 NEO operated flights only.</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">WiFi Included at a fee
+                    Available Airbus A330-300 and A320/A321 NEO operated flights only.</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Inflight WiFi</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">WiFi</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Lounge" CreateDate="2023-03-29T18:05:24.521+00:00"
+                  Key="iIUsfbVqWDKA3ObkdAAAAA==" Chargeable="Not offered" Tag="Other"
+                  DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Lounges</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_80827.jpg" />
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_80827.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Lounges</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Lounge Access : Included</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Lounge Access : Included</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Lounges</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Lounges</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="TravelServices"
+                  CreateDate="2023-03-29T18:05:24.521+00:00" Key="iIUsfbVqWDKA4ObkdAAAAA=="
+                  SecondaryType="CI" Chargeable="Not offered" Tag="Other" DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Priority Check in</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_80828.jpg" />
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_80828.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Priority Check in</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Priority Check in : Included</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Priority Check in : Included</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Priority Check in</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Priority</air:Title>
+                </air:OptionalService>
+                <air:OptionalServiceRules Key="iIUsfbVqWDKApObkdAAAAA==">
+                  <common_v47_0:Remarks>Y,1,KG,30,BAG</common_v47_0:Remarks>
+                </air:OptionalServiceRules>
+                <air:OptionalServiceRules Key="iIUsfbVqWDKArObkdAAAAA==">
+                  <common_v47_0:Remarks>Y,1,KG,7,CY - W23,H36,L56,CM</common_v47_0:Remarks>
+                </air:OptionalServiceRules>
+              </air:OptionalServices>
+            </air:Brand>
+          </air:FareInfo>
+          <air:BookingInfo BookingCode="R" CabinClass="Economy"
+            FareInfoRef="iIUsfbVqWDKARObkdAAAAA==" SegmentRef="iIUsfbVqWDKA5NbkdAAAAA=="
+            HostTokenRef="iIUsfbVqWDKACObkdAAAAA==" />
+          <air:BookingInfo BookingCode="R" CabinClass="Economy"
+            FareInfoRef="iIUsfbVqWDKARObkdAAAAA==" SegmentRef="iIUsfbVqWDKA7NbkdAAAAA=="
+            HostTokenRef="iIUsfbVqWDKACObkdAAAAA==" />
+          <air:BookingInfo BookingCode="R" CabinClass="Economy"
+            FareInfoRef="iIUsfbVqWDKAlObkdAAAAA==" SegmentRef="iIUsfbVqWDKA9NbkdAAAAA=="
+            HostTokenRef="iIUsfbVqWDKADObkdAAAAA==" />
+          <air:BookingInfo BookingCode="R" CabinClass="Economy"
+            FareInfoRef="iIUsfbVqWDKAlObkdAAAAA==" SegmentRef="iIUsfbVqWDKA/NbkdAAAAA=="
+            HostTokenRef="iIUsfbVqWDKADObkdAAAAA==" />
+          <air:TaxInfo Category="BD" Amount="BDT500" Key="iIUsfbVqWDKAHObkdAAAAA==" />
+          <air:TaxInfo Category="OW" Amount="BDT2000" Key="iIUsfbVqWDKAIObkdAAAAA==" />
+          <air:TaxInfo Category="P7" Amount="BDT1034" Key="iIUsfbVqWDKAJObkdAAAAA==" />
+          <air:TaxInfo Category="P8" Amount="BDT1034" Key="iIUsfbVqWDKAKObkdAAAAA==" />
+          <air:TaxInfo Category="UT" Amount="BDT3000" Key="iIUsfbVqWDKALObkdAAAAA==" />
+          <air:TaxInfo Category="AE" Amount="BDT2111" Key="iIUsfbVqWDKAMObkdAAAAA==" />
+          <air:TaxInfo Category="F6" Amount="BDT985" Key="iIUsfbVqWDKANObkdAAAAA==" />
+          <air:TaxInfo Category="TP" Amount="BDT141" Key="iIUsfbVqWDKAOObkdAAAAA==" />
+          <air:TaxInfo Category="ZR" Amount="BDT282" Key="iIUsfbVqWDKAPObkdAAAAA==" />
+          <air:TaxInfo Category="E5" Amount="BDT386" Key="iIUsfbVqWDKAQObkdAAAAA==" />
+          <air:FareCalc>DAC UL X/CMB UL DXB Q DACDXB33.60 240.00RE6M1BD UL X/CMB UL DAC Q
+            DXBDAC33.60 240.00RE6M1BD NUC547.20END ROE1.0</air:FareCalc>
+          <air:PassengerType Code="ADT" BookingTravelerRef="P_1" />
+          <air:ChangePenalty PenaltyApplies="Anytime">
+            <air:Amount>BDT6199.0</air:Amount>
+          </air:ChangePenalty>
+          <air:CancelPenalty PenaltyApplies="Anytime">
+            <air:Amount>BDT9299.0</air:Amount>
+          </air:CancelPenalty>
+          <air:BaggageAllowances>
+            <air:BaggageAllowanceInfo TravelerType="ADT" Origin="DAC" Destination="DXB" Carrier="UL">
+              <air:URLInfo>
+                <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UL</air:URL>
+              </air:URLInfo>
+              <air:TextInfo>
+                <air:Text>30K</air:Text>
+                <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE
+                  CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+              </air:TextInfo>
+              <air:BagDetails ApplicableBags="1stChecked">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:BagDetails>
+              <air:BagDetails ApplicableBags="2ndChecked">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:BagDetails>
+            </air:BaggageAllowanceInfo>
+            <air:BaggageAllowanceInfo TravelerType="ADT" Origin="DXB" Destination="DAC" Carrier="UL">
+              <air:URLInfo>
+                <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UL</air:URL>
+              </air:URLInfo>
+              <air:TextInfo>
+                <air:Text>30K</air:Text>
+                <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE
+                  CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+              </air:TextInfo>
+              <air:BagDetails ApplicableBags="1stChecked">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:BagDetails>
+              <air:BagDetails ApplicableBags="2ndChecked">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:BagDetails>
+            </air:BaggageAllowanceInfo>
+            <air:CarryOnAllowanceInfo Origin="DAC" Destination="CMB" Carrier="UL">
+              <air:TextInfo>
+                <air:Text>1P</air:Text>
+              </air:TextInfo>
+              <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="BDT0"
+                ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:CarryOnDetails>
+            </air:CarryOnAllowanceInfo>
+            <air:CarryOnAllowanceInfo Origin="CMB" Destination="DXB" Carrier="UL">
+              <air:TextInfo>
+                <air:Text>1P</air:Text>
+              </air:TextInfo>
+              <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="LKR0" TotalPrice="LKR0">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:CarryOnDetails>
+            </air:CarryOnAllowanceInfo>
+            <air:CarryOnAllowanceInfo Origin="DXB" Destination="CMB" Carrier="UL">
+              <air:TextInfo>
+                <air:Text>1P</air:Text>
+              </air:TextInfo>
+              <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="AED0" TotalPrice="AED0">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:CarryOnDetails>
+            </air:CarryOnAllowanceInfo>
+            <air:CarryOnAllowanceInfo Origin="CMB" Destination="DAC" Carrier="UL">
+              <air:TextInfo>
+                <air:Text>1P</air:Text>
+              </air:TextInfo>
+              <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="LKR0" TotalPrice="LKR0">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:CarryOnDetails>
+            </air:CarryOnAllowanceInfo>
+          </air:BaggageAllowances>
+        </air:AirPricingInfo>
+        <air:AirPricingInfo Key="iIUsfbVqWDKA9ObkdAAAAA==" TotalPrice="BDT67995"
+          BasePrice="USD547.00" ApproximateTotalPrice="BDT67995" ApproximateBasePrice="BDT56522"
+          EquivalentBasePrice="BDT56522" ApproximateTaxes="BDT11473" Taxes="BDT11473"
+          LatestTicketingTime="2023-06-27T23:59:00.000+06:00" PricingMethod="Guaranteed"
+          Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G"
+          PlatingCarrier="UL">
+          <air:FareInfo Key="iIUsfbVqWDKAIPbkdAAAAA==" FareBasis="RE6M1BD" PassengerTypeCode="ADT"
+            Origin="DAC" Destination="DXB" EffectiveDate="2023-03-31T00:05:00.000+06:00"
+            DepartureDate="2023-06-27" Amount="BDT28271" NegotiatedFare="false"
+            NotValidBefore="2023-06-27" NotValidAfter="2023-06-27" TaxAmount="BDT7902.00">
+            <common_v47_0:Endorsement Value="VALID ON UL ONLY" />
+            <common_v47_0:Endorsement Value="CHANGE FEE MAY APPLY" />
+            <air:FareRuleKey FareInfoRef="iIUsfbVqWDKAIPbkdAAAAA==" ProviderCode="1G">
+              6UUVoSldxwidqOrClwV9DMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxBgpKGYh5CixWa1uaqI55k3aSkvhp2yba5c4X5DF78mCI28Fwy0LsXAyGqh8JIaqM0EmrMjzy586fEgxBu+xUWDfQ5oIGkhaWLgFn3B9sPdSU8gecfbWEnsEf34vHSKSpmRVmgyUnTz6/F+W6hGA7peWRv8cS/JBUPFc7ZmQhP+mpBH9wehGME90u/IoOHZi8mvcRBO4/P1/AFKEXb03hK/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHxDGJun84l6GmjYuszn207WOnxkQ2WPPHvaVUAnec78/v9M63Ka7d3H3Q/dz5caUDawuQRjZx6wTuUhL1GhK7M0=</air:FareRuleKey>
+          </air:FareInfo>
+          <air:FareInfo Key="iIUsfbVqWDKAcPbkdAAAAA==" FareBasis="RE6M1BD" PassengerTypeCode="ADT"
+            Origin="DXB" Destination="DAC" EffectiveDate="2023-03-31T00:05:00.000+06:00"
+            DepartureDate="2023-06-30" Amount="BDT28251" NegotiatedFare="false"
+            NotValidBefore="2023-06-30" NotValidAfter="2023-06-30" TaxAmount="BDT3571.00">
+            <common_v47_0:Endorsement Value="VALID ON UL ONLY" />
+            <common_v47_0:Endorsement Value="CHANGE FEE MAY APPLY" />
+            <air:FareRuleKey FareInfoRef="iIUsfbVqWDKAcPbkdAAAAA==" ProviderCode="1G">
+              6UUVoSldxwidqOrClwV9DMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxBgpKGYh5CixWa1uaqI55k3aSkvhp2ybSbwz6fyDLOYTylQ/TNcQ+3AyGqh8JIaqM0EmrMjzy586fEgxBu+xUVcl3ojS2d2imLgFn3B9sPdSU8gecfbWEnsEf34vHSKSpmRVmgyUnTz6/F+W6hGA7peWRv8cS/JBU4nKb2G5mOFmpBH9wehGMHEa3eMH3dEr8mvcRBO4/P1/AFKEXb03hK/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHxDGJun84l6GmjYuszn207WOnxkQ2WPPHvaVUAnec78/v9M63Ka7d3H3Q/dz5caUDawuQRjZx6wTuUhL1GhK7M0=</air:FareRuleKey>
+            <air:Brand Key="iIUsfbVqWDKAcPbkdAAAAA==" BrandID="933064" UpSellBrandID="933059"
+              Name="Economy Value" Carrier="UL" BrandTier="0004">
+              <air:Title Type="External" LanguageCode="EN">Economy Value</air:Title>
+              <air:Title Type="Short" LanguageCode="EN">ECO VALUE</air:Title>
+              <air:Text Type="MarketingConsumer" LanguageCode="EN">'Economy Value includes:
+
+                • Hand baggage 1 x 7kgs
+                • Checked baggage included
+                • Changes permitted
+                • Refunds permitted
+                • Onboard Meals and refreshments included
+                • Seat selection (Exit Seat and Advance Seat Reservation)
+
+                Please refer to fare rules for full conditions
+                • Please note that if the flight is operated by another airline then the onboard
+                product or service maybe different to that described above.</air:Text>
+              <air:Text Type="MarketingAgent" LanguageCode="EN">'Economy Value includes:
+
+                • Hand baggage 1 x 7kgs
+                • Checked baggage included
+                • Changes permitted
+                • Refunds permitted
+                • Onboard Meals and refreshments included
+                • Seat selection (Exit Seat and Advance Seat Reservation)
+
+                Please refer to fare rules for full conditions
+                • Please note that if the flight is operated by another airline then the onboard
+                product or service maybe different to that described above.</air:Text>
+              <air:Text Type="Strapline" LanguageCode="EN">Economy Value</air:Text>
+              <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">
+                https://cdn.travelport.com/srilankanairlines/UL_general_large_80545.JPG</air:ImageLocation>
+              <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">
+                https://cdn.travelport.com/srilankanairlines/UL_general_medium_80544.JPG</air:ImageLocation>
+              <air:OptionalServices>
+                <air:OptionalService Type="Baggage" CreateDate="2023-03-29T18:05:24.521+00:00"
+                  Key="iIUsfbVqWDKAfPbkdAAAAA==" Chargeable="Included in the brand"
+                  OptionalServicesRuleRef="iIUsfbVqWDKAgPbkdAAAAA==" Tag="Checked Baggage"
+                  DisplayOrder="1">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Checked Baggage</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71508.jpg" />
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71508.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Check in your bags for extra
+                    convenience</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Weight Policy for Free Baggage
+                    Business Class 40kg 158cm/ 62 inch
+                    Economy Class 30kg 158cm/ 62 inch
+
+
+                    Piece Policy for Free Baggage
+                    Business Class 158cm/ 62 inch 2 32 kg each
+                    Economy Class 158cm/ 62 inch 2 23 kg each</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Weight Policy for Free
+                    Baggage
+                    Business Class 40kg 158cm/ 62 inch
+                    Economy Class 30kg 158cm/ 62 inch
+
+
+                    Piece Policy for Free Baggage
+                    Business Class 158cm/ 62 inch 2 32 kg each
+                    Economy Class 158cm/ 62 inch 2 23 kg each</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Checked Baggage</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">HoldBag</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Baggage" CreateDate="2023-03-29T18:05:24.521+00:00"
+                  Key="iIUsfbVqWDKAhPbkdAAAAA==" SecondaryType="CY"
+                  Chargeable="Included in the brand"
+                  OptionalServicesRuleRef="iIUsfbVqWDKAiPbkdAAAAA==" Tag="Carry On Hand Baggage"
+                  DisplayOrder="2">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Hand baggage</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71509.jpg" />
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71509.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Below indicated free carry-on
+                    items are permitted in addition to above hand luggage in all cabin classes
+                    • One Laptop
+                    • One lady's hand bag, purse or pocket book, Duty Free Item
+                    • One overcoat, wrap or blanket
+                    • One umbrella or walking stick
+                    • One small camera and/or one pair of binoculars</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Below indicated free carry-on
+                    items are permitted in addition to above hand luggage in all cabin classes
+                    • One Laptop
+                    • One lady's hand bag, purse or pocket book, Duty Free Item
+                    • One overcoat, wrap or blanket
+                    • One umbrella or walking stick
+                    • One small camera and/or one pair of binoculars</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Hand baggage</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">CarryOn</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Baggage" CreateDate="2023-03-29T18:05:24.521+00:00"
+                  Key="iIUsfbVqWDKAjPbkdAAAAA==" SecondaryType="XS"
+                  Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Pre-Paid Baggage</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71645.jpg" />
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71645.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Pre-Paid Baggage</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Pre-Paid additional Baggage is
+                    available in blocks of 5KG, 10KG, 15KG, 20KG, 25KG, 30KG, 35KG, 40KG, 45KG and
+                    50KG. Refer EMD Services for more details</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Pre-Paid additional Baggage
+                    is available in blocks of 5KG, 10KG, 15KG, 20KG, 25KG, 30KG, 35KG, 40KG, 45KG
+                    and 50KG. Refer EMD Services for more details</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Pre-Paid Baggage</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Pre-Paid</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Branded Fares" CreateDate="2023-03-29T18:05:24.521+00:00"
+                  ServiceSubCode="" Key="iIUsfbVqWDKAkPbkdAAAAA==" SecondaryType="RF"
+                  Chargeable="Included in the brand" Tag="Other" DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Refund</common_v47_0:Description>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Title Type="Short" LanguageCode="EN" />
+                </air:OptionalService>
+                <air:OptionalService Type="Branded Fares" CreateDate="2023-03-29T18:05:24.521+00:00"
+                  ServiceSubCode="" Key="iIUsfbVqWDKAlPbkdAAAAA==" SecondaryType="VC"
+                  Chargeable="Not offered" Tag="Other" DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Rebooking</common_v47_0:Description>
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Title Type="Short" LanguageCode="EN" />
+                </air:OptionalService>
+                <air:OptionalService Type="RuleOverride" CreateDate="2023-03-29T18:05:24.521+00:00"
+                  Key="iIUsfbVqWDKAmPbkdAAAAA==" SecondaryType="31"
+                  Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Dates Changes</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71510.jpg" />
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71510.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Date Changes</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Please refer to fare rules for
+                    full conditions</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Please refer to fare rules
+                    for full conditions</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Dates Changes</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Changes</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="PreReservedSeatAssignment"
+                  CreateDate="2023-03-29T18:05:24.521+00:00" Key="iIUsfbVqWDKAnPbkdAAAAA=="
+                  SecondaryType="EA" Chargeable="Available for a charge" Tag="Other"
+                  DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Extra Legroom Seating</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71514.jpg" />
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71514.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Extra space to stretch out</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Refer EMD Services for more
+                    details or Call our contact centre 1979 or +94 777 771979 or our ticket offices.
+                    Seat with extra leg room can be purchased at the airport subject to
+                    availability.</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Refer EMD Services for more
+                    details or Call our contact centre 1979 or +94 777 771979 or our ticket offices.
+                    Seat with extra leg room can be purchased at the airport subject to
+                    availability.</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Extra Legroom Seating</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Extra Leg</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="PreReservedSeatAssignment"
+                  CreateDate="2023-03-29T18:05:24.521+00:00" Key="iIUsfbVqWDKAoPbkdAAAAA=="
+                  SecondaryType="EA" Chargeable="Available for a charge" Tag="Other"
+                  DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Neighbour Free Seats</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71513.jpg" />
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71513.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Economy class passengers can
+                    reserve a Neighbour Free Seat or row on their flights for a nominal fee.
+                    Available between 48hrs and 4hrs prior to departure. *subject to availability</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy class passengers can
+                    reserve a Neighbour Free Seat or row on their flights for a nominal fee.
+                    Available between 48hrs and 4hrs prior to departure. *subject to availability</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Neighbour Free Seats</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN" />
+                </air:OptionalService>
+                <air:OptionalService Type="PreReservedSeatAssignment"
+                  CreateDate="2023-03-29T18:05:24.521+00:00" Key="iIUsfbVqWDKApPbkdAAAAA=="
+                  Chargeable="Not offered" Tag="Seat Assignment" DisplayOrder="5">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Seat Assignment</common_v47_0:Description>
+                  </common_v47_0:ServiceInfo>
+                </air:OptionalService>
+                <air:OptionalService Type="MealOrBeverage"
+                  CreateDate="2023-03-29T18:05:24.521+00:00" Key="iIUsfbVqWDKAqPbkdAAAAA=="
+                  Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Meals</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71512.jpg" />
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71512.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Meals</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Onboard meals and refreshments
+                    included</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Onboard meals and
+                    refreshments included</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Meals</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Meals</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="MealOrBeverage"
+                  CreateDate="2023-03-29T18:05:24.521+00:00" Key="iIUsfbVqWDKArPbkdAAAAA=="
+                  Chargeable="Available for a charge" Tag="Meals and Beverages" DisplayOrder="6">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Special Cake</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71512.jpg" />
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71512.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Special Cake</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Special Cake</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Special Cake</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">SPECIAL CA</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="MealOrBeverage"
+                  CreateDate="2023-03-29T18:05:24.521+00:00" Key="iIUsfbVqWDKAsPbkdAAAAA=="
+                  Chargeable="Available for a charge" Tag="Meals and Beverages" DisplayOrder="6">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Special Meal</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71512.jpg" />
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71512.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Special Meal</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Pre-order preferred meal from
+                    our extensive menu before 48 hours prior to departure on selected UL flights
+                    departing from CMB. To book a special meal refer EMD Services for more details
+                    or call our contact centre 1979 (International: +94 777 771979) or our ticket
+                    offices.</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Pre-order preferred meal from
+                    our extensive menu before 48 hours prior to departure on selected UL flights
+                    departing from CMB. To book a special meal refer EMD Services for more details
+                    or call our contact centre 1979 (International: +94 777 771979) or our ticket
+                    offices.</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Special Meal</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Special Me</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="InFlightEntertainment"
+                  CreateDate="2023-03-29T18:05:24.521+00:00" Key="iIUsfbVqWDKAtPbkdAAAAA=="
+                  SecondaryType="IT" Chargeable="Available for a charge" Tag="Other"
+                  DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Inflight WiFi</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_80762.jpg" />
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_80762.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Inflight WiFi</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">WiFi Included at a fee
+
+                    Available Airbus A330-300 and A320/A321 NEO operated flights only.</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">WiFi Included at a fee
+                    Available Airbus A330-300 and A320/A321 NEO operated flights only.</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Inflight WiFi</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">WiFi</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="Lounge" CreateDate="2023-03-29T18:05:24.521+00:00"
+                  Key="iIUsfbVqWDKAuPbkdAAAAA==" Chargeable="Not offered" Tag="Other"
+                  DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Lounges</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_80827.jpg" />
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_80827.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Lounges</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Lounge Access : Included</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Lounge Access : Included</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Lounges</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Lounges</air:Title>
+                </air:OptionalService>
+                <air:OptionalService Type="TravelServices"
+                  CreateDate="2023-03-29T18:05:24.521+00:00" Key="iIUsfbVqWDKAvPbkdAAAAA=="
+                  SecondaryType="CI" Chargeable="Not offered" Tag="Other" DisplayOrder="999">
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA9NbkdAAAAA==" />
+                  <common_v47_0:ServiceData AirSegmentRef="iIUsfbVqWDKA/NbkdAAAAA==" />
+                  <common_v47_0:ServiceInfo>
+                    <common_v47_0:Description>Priority Check in</common_v47_0:Description>
+                    <common_v47_0:MediaItem caption="Agent" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_80828.jpg" />
+                    <common_v47_0:MediaItem caption="Consumer" height="60" width="60"
+                      url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_80828.jpg" />
+                  </common_v47_0:ServiceInfo>
+                  <air:EMD AssociatedItem="Flight" />
+                  <air:Text Type="Strapline" LanguageCode="EN">Priority Check in</air:Text>
+                  <air:Text Type="MarketingAgent" LanguageCode="EN">Priority Check in : Included</air:Text>
+                  <air:Text Type="MarketingConsumer" LanguageCode="EN">Priority Check in : Included</air:Text>
+                  <air:Title Type="External" LanguageCode="EN">Priority Check in</air:Title>
+                  <air:Title Type="Short" LanguageCode="EN">Priority</air:Title>
+                </air:OptionalService>
+                <air:OptionalServiceRules Key="iIUsfbVqWDKAgPbkdAAAAA==">
+                  <common_v47_0:Remarks>Y,1,KG,30,BAG</common_v47_0:Remarks>
+                </air:OptionalServiceRules>
+                <air:OptionalServiceRules Key="iIUsfbVqWDKAiPbkdAAAAA==">
+                  <common_v47_0:Remarks>Y,1,KG,7,CY - W23,H36,L56,CM</common_v47_0:Remarks>
+                </air:OptionalServiceRules>
+              </air:OptionalServices>
+            </air:Brand>
+          </air:FareInfo>
+          <air:BookingInfo BookingCode="R" CabinClass="Economy"
+            FareInfoRef="iIUsfbVqWDKAIPbkdAAAAA==" SegmentRef="iIUsfbVqWDKA5NbkdAAAAA=="
+            HostTokenRef="iIUsfbVqWDKAEObkdAAAAA==" />
+          <air:BookingInfo BookingCode="R" CabinClass="Economy"
+            FareInfoRef="iIUsfbVqWDKAIPbkdAAAAA==" SegmentRef="iIUsfbVqWDKA7NbkdAAAAA=="
+            HostTokenRef="iIUsfbVqWDKAEObkdAAAAA==" />
+          <air:BookingInfo BookingCode="R" CabinClass="Economy"
+            FareInfoRef="iIUsfbVqWDKAcPbkdAAAAA==" SegmentRef="iIUsfbVqWDKA9NbkdAAAAA=="
+            HostTokenRef="iIUsfbVqWDKAFObkdAAAAA==" />
+          <air:BookingInfo BookingCode="R" CabinClass="Economy"
+            FareInfoRef="iIUsfbVqWDKAcPbkdAAAAA==" SegmentRef="iIUsfbVqWDKA/NbkdAAAAA=="
+            HostTokenRef="iIUsfbVqWDKAFObkdAAAAA==" />
+          <air:TaxInfo Category="BD" Amount="BDT500" Key="iIUsfbVqWDKA+ObkdAAAAA==" />
+          <air:TaxInfo Category="OW" Amount="BDT2000" Key="iIUsfbVqWDKA/ObkdAAAAA==" />
+          <air:TaxInfo Category="P7" Amount="BDT1034" Key="iIUsfbVqWDKAAPbkdAAAAA==" />
+          <air:TaxInfo Category="P8" Amount="BDT1034" Key="iIUsfbVqWDKABPbkdAAAAA==" />
+          <air:TaxInfo Category="UT" Amount="BDT3000" Key="iIUsfbVqWDKACPbkdAAAAA==" />
+          <air:TaxInfo Category="AE" Amount="BDT2111" Key="iIUsfbVqWDKADPbkdAAAAA==" />
+          <air:TaxInfo Category="F6" Amount="BDT985" Key="iIUsfbVqWDKAEPbkdAAAAA==" />
+          <air:TaxInfo Category="TP" Amount="BDT141" Key="iIUsfbVqWDKAFPbkdAAAAA==" />
+          <air:TaxInfo Category="ZR" Amount="BDT282" Key="iIUsfbVqWDKAGPbkdAAAAA==" />
+          <air:TaxInfo Category="E5" Amount="BDT386" Key="iIUsfbVqWDKAHPbkdAAAAA==" />
+          <air:FareCalc>DAC UL X/CMB UL DXB Q DACDXB33.60 240.00RE6M1BD UL X/CMB UL DAC Q
+            DXBDAC33.60 240.00RE6M1BD NUC547.20END ROE1.0</air:FareCalc>
+          <air:PassengerType Code="CNN" BookingTravelerRef="P_2" />
+          <air:ChangePenalty PenaltyApplies="Anytime">
+            <air:Amount>BDT6199.0</air:Amount>
+          </air:ChangePenalty>
+          <air:CancelPenalty PenaltyApplies="Anytime">
+            <air:Amount>BDT9299.0</air:Amount>
+          </air:CancelPenalty>
+          <air:BaggageAllowances>
+            <air:BaggageAllowanceInfo TravelerType="CNN" Origin="DAC" Destination="DXB" Carrier="UL">
+              <air:URLInfo>
+                <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UL</air:URL>
+              </air:URLInfo>
+              <air:TextInfo>
+                <air:Text>30K</air:Text>
+                <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE
+                  CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+              </air:TextInfo>
+              <air:BagDetails ApplicableBags="1stChecked">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:BagDetails>
+              <air:BagDetails ApplicableBags="2ndChecked">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:BagDetails>
+            </air:BaggageAllowanceInfo>
+            <air:BaggageAllowanceInfo TravelerType="CNN" Origin="DXB" Destination="DAC" Carrier="UL">
+              <air:URLInfo>
+                <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UL</air:URL>
+              </air:URLInfo>
+              <air:TextInfo>
+                <air:Text>30K</air:Text>
+                <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE
+                  CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+              </air:TextInfo>
+              <air:BagDetails ApplicableBags="1stChecked">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:BagDetails>
+              <air:BagDetails ApplicableBags="2ndChecked">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:BagDetails>
+            </air:BaggageAllowanceInfo>
+            <air:CarryOnAllowanceInfo Origin="DAC" Destination="CMB" Carrier="UL">
+              <air:TextInfo>
+                <air:Text>1P</air:Text>
+              </air:TextInfo>
+              <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="BDT0"
+                ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:CarryOnDetails>
+            </air:CarryOnAllowanceInfo>
+            <air:CarryOnAllowanceInfo Origin="CMB" Destination="DXB" Carrier="UL">
+              <air:TextInfo>
+                <air:Text>1P</air:Text>
+              </air:TextInfo>
+              <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="LKR0" TotalPrice="LKR0">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:CarryOnDetails>
+            </air:CarryOnAllowanceInfo>
+            <air:CarryOnAllowanceInfo Origin="DXB" Destination="CMB" Carrier="UL">
+              <air:TextInfo>
+                <air:Text>1P</air:Text>
+              </air:TextInfo>
+              <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="AED0" TotalPrice="AED0">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:CarryOnDetails>
+            </air:CarryOnAllowanceInfo>
+            <air:CarryOnAllowanceInfo Origin="CMB" Destination="DAC" Carrier="UL">
+              <air:TextInfo>
+                <air:Text>1P</air:Text>
+              </air:TextInfo>
+              <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="LKR0" TotalPrice="LKR0">
+                <air:BaggageRestriction>
+                  <air:TextInfo>
+                    <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                  </air:TextInfo>
+                </air:BaggageRestriction>
+              </air:CarryOnDetails>
+            </air:CarryOnAllowanceInfo>
+          </air:BaggageAllowances>
+        </air:AirPricingInfo>
+        <air:FareNote Key="iIUsfbVqWDKA0PbkdAAAAA==">RATE USED IN EQU TOTAL IS BSR 1USD - 103.33BDT</air:FareNote>
+        <air:FareNote Key="iIUsfbVqWDKA1PbkdAAAAA==">LAST DATE TO PURCHASE TICKET: 27JUN23</air:FareNote>
+        <air:FareNote Key="iIUsfbVqWDKA2PbkdAAAAA==">FARE HAS A PLATING CARRIER RESTRICTION</air:FareNote>
+        <air:FareNote Key="iIUsfbVqWDKA3PbkdAAAAA==">E-TKT REQUIRED</air:FareNote>
+        <air:FareNote Key="iIUsfbVqWDKA4PbkdAAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+        <air:FareNote Key="iIUsfbVqWDKA5PbkdAAAAA==">RATE USED IN EQU TOTAL IS BSR 1USD - 103.33BDT</air:FareNote>
+        <air:FareNote Key="iIUsfbVqWDKA6PbkdAAAAA==">LAST DATE TO PURCHASE TICKET: 27JUN23</air:FareNote>
+        <air:FareNote Key="iIUsfbVqWDKA7PbkdAAAAA==">FARE HAS A PLATING CARRIER RESTRICTION</air:FareNote>
+        <air:FareNote Key="iIUsfbVqWDKA8PbkdAAAAA==">E-TKT REQUIRED</air:FareNote>
+        <air:FareNote Key="iIUsfbVqWDKA9PbkdAAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+        <common_v47_0:HostToken Key="iIUsfbVqWDKACObkdAAAAA==">GFB10101ADT00 01RE6M1BD
+          0200010002#GFB200010101NADTV3033BD020010000199BD#GFMCXEX033NBD02 UL ADTRE6M1BD</common_v47_0:HostToken>
+        <common_v47_0:HostToken Key="iIUsfbVqWDKADObkdAAAAA==">GFB10101ADT00 02RE6M1BD
+          0200030004#GFB200010102NADTV3033BD020010000199BD#GFMCXEX033NBD02 UL ADTRE6M1BD</common_v47_0:HostToken>
+        <common_v47_0:HostToken Key="iIUsfbVqWDKAEObkdAAAAA==">GFB10202CNN00 01RE6M1BD
+          0200010002#GFB200020201NADTV3033BD020010000199BD#GFMCXEX033NBD02 UL ADTRE6M1BD</common_v47_0:HostToken>
+        <common_v47_0:HostToken Key="iIUsfbVqWDKAFObkdAAAAA==">GFB10202CNN00 02RE6M1BD
+          0200030004#GFB200020202NADTV3033BD020010000199BD#GFMCXEX033NBD02 UL ADTRE6M1BD</common_v47_0:HostToken>
+      </air:AirPricingSolution>
+      <com:ActionStatus Type="TAU" TicketDate="2023-03-30T01:05:26+06:00" ProviderCode="1G" />
+    </univ:AirCreateReservationReq>
+  </soap:Body>
+</soap:Envelope>
